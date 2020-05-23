@@ -1,6 +1,0 @@
-<map id="uartPutData" name="uartPutData">
-<area shape="rect" id="node1" title=" " alt="" coords="364,31,455,57"/>
-<area shape="rect" id="node2" href="$ble_8h.html#a8220b591580b8e02649052e88973c3b3" title=" " alt="" coords="183,5,293,32"/>
-<area shape="rect" id="node4" href="$ble_8h.html#ad5f82a0753f9a0b4d4009582ca32a06f" title=" " alt="" coords="160,56,316,83"/>
-<area shape="rect" id="node3" href="$main_8c.html#abc879637bb3a20d42298d71b880980c6" title="Function called by interrupt from IMU @50 Hz." alt="" coords="5,5,112,32"/>
-</map>

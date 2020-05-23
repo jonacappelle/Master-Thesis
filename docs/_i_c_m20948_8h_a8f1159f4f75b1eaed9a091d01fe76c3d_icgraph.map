@@ -1,7 +1,0 @@
-<map id="ICM_20948_sleepModeEnable" name="ICM_20948_sleepModeEnable">
-<area shape="rect" id="node1" title=" " alt="" coords="544,56,741,83"/>
-<area shape="rect" id="node2" href="$_i_c_m20948_8h.html#a784752c7cf3630129dfd34f57cc5b440" title="Second init function for ICM20948, use when waking from sleep." alt="" coords="331,5,449,32"/>
-<area shape="rect" id="node4" href="$_i_c_m20948_8h.html#a138a0d4e0dcbec3f93bb022ac655d3e7" title=" " alt="" coords="284,56,496,83"/>
-<area shape="rect" id="node5" href="$_i_c_m20948_8h.html#a8d0bf2e4c95719f9dfb2e8c286d7a8d6" title=" " alt="" coords="5,81,236,108"/>
-<area shape="rect" id="node3" href="$_i_c_m20948_8h.html#abe547d7b034f54274da0607f457f2ac2" title="Init function for ICM20948." alt="" coords="65,5,176,32"/>
-</map>

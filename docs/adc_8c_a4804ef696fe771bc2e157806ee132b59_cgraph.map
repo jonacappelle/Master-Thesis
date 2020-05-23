@@ -1,5 +1,0 @@
-<map id="ADC_Batt_print" name="ADC_Batt_print">
-<area shape="rect" id="node1" title="Print battery in millivolts using dbprint." alt="" coords="5,31,117,57"/>
-<area shape="rect" id="node2" href="$dbprint_8h.html#a48c1f5d07dde14219473ff6a89a3f7ba" title=" " alt="" coords="172,5,233,32"/>
-<area shape="rect" id="node3" href="$dbprint_8h.html#a4e4e18f85e358d8cc702ea8c2f190503" title=" " alt="" coords="165,56,240,83"/>
-</map>

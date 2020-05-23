@@ -1,5 +1,0 @@
-<map id="ICM_20948_set_mag_mode" name="ICM_20948_set_mag_mode">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,188,39"/>
-<area shape="rect" id="node2" href="$_i_c_m20948_8c.html#a7ed83e84f5d14637ea91c05174e84dcd" title="Writes a uint8_t to the I2C address of the magnetometer of the ICM_20948." alt="" coords="236,5,389,47"/>
-<area shape="rect" id="node3" href="$_i2_c_8c.html#a47431e985fd340e0e1d8a112bfe9ddcc" title="I2C write functionality." alt="" coords="437,13,545,39"/>
-</map>

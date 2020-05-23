@@ -1,6 +1,0 @@
-<map id="ICM_20948_accelBandwidthSet" name="ICM_20948_accelBandwidthSet">
-<area shape="rect" id="node1" title=" " alt="" coords="443,31,648,57"/>
-<area shape="rect" id="node2" href="$_i_c_m20948_8h.html#ad503b9efac873146ca6401db153afe3e" title="Accelerometer and gyroscope calibration function. Reads the gyroscope and accelerometer values while ..." alt="" coords="177,5,381,32"/>
-<area shape="rect" id="node4" href="$_i_c_m20948_8h.html#a8d0bf2e4c95719f9dfb2e8c286d7a8d6" title=" " alt="" coords="164,56,395,83"/>
-<area shape="rect" id="node3" href="$_i_c_m20948_8h.html#abe547d7b034f54274da0607f457f2ac2" title="Init function for ICM20948." alt="" coords="5,5,116,32"/>
-</map>

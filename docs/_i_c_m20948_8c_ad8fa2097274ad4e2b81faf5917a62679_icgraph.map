@@ -1,5 +1,0 @@
-<map id="ICM_20948_magDataRead" name="ICM_20948_magDataRead">
-<area shape="rect" id="node1" title=" " alt="" coords="232,31,408,57"/>
-<area shape="rect" id="node2" href="$_i_c_m20948_8h.html#a0d8a914c518d9d869d3e4d9b7afeb672" title="Calculate minimum and maximum magnetometer values, which are used for calibration." alt="" coords="5,5,184,32"/>
-<area shape="rect" id="node3" href="$main_8c.html#abc879637bb3a20d42298d71b880980c6" title="Function called by interrupt from IMU @50 Hz." alt="" coords="41,56,148,83"/>
-</map>

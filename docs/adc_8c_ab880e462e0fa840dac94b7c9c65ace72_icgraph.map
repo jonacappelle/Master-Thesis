@@ -1,5 +1,0 @@
-<map id="ADC_Batt_Read" name="ADC_Batt_Read">
-<area shape="rect" id="node1" title="Do single ADC conversion (read)" alt="" coords="307,5,424,32"/>
-<area shape="rect" id="node2" href="$adc_8h.html#a12e9b8d2df1ad33f4e4b686cd914d881" title="Get battery in percentage." alt="" coords="156,5,259,32"/>
-<area shape="rect" id="node3" href="$main_8c.html#a7a8d63414ea0f0bb985c0f54a88435ae" title="Function called by RTC timer every second." alt="" coords="5,5,108,32"/>
-</map>

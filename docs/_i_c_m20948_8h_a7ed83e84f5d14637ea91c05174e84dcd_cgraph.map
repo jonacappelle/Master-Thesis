@@ -1,4 +1,0 @@
-<map id="ICM_20948_write_mag_register" name="ICM_20948_write_mag_register">
-<area shape="rect" id="node1" title="Writes a uint8_t to the I2C address of the magnetometer of the ICM_20948." alt="" coords="5,5,159,47"/>
-<area shape="rect" id="node2" href="$_i2_c_8c.html#a47431e985fd340e0e1d8a112bfe9ddcc" title="I2C write functionality." alt="" coords="207,13,315,39"/>
-</map>

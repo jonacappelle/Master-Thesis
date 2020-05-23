@@ -1,26 +1,5 @@
 var searchData=
 [
-  ['i2c_2ec_602',['I2C.c',['../_i2_c_8c.html',1,'']]],
-  ['i2c_2ed_603',['I2C.d',['../_i2_c_8d.html',1,'']]],
-  ['i2c_2eh_604',['I2C.h',['../_i2_c_8h.html',1,'']]],
-  ['i2cspm_2ed_605',['i2cspm.d',['../i2cspm_8d.html',1,'']]],
-  ['icm20948_2ec_606',['ICM20948.c',['../_i_c_m20948_8c.html',1,'']]],
-  ['icm20948_2ed_607',['ICM20948.d',['../_i_c_m20948_8d.html',1,'']]],
-  ['icm20948_2eh_608',['ICM20948.h',['../_i_c_m20948_8h.html',1,'']]],
-  ['icm20948augmented_2ed_609',['Icm20948Augmented.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_augmented_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_augmented_8d.html',1,'(Global Namespace)']]],
-  ['icm20948auxcompassakm_2ed_610',['Icm20948AuxCompassAkm.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_aux_compass_akm_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_aux_compass_akm_8d.html',1,'(Global Namespace)']]],
-  ['icm20948auxtransport_2ed_611',['Icm20948AuxTransport.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_aux_transport_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_aux_transport_8d.html',1,'(Global Namespace)']]],
-  ['icm20948databasecontrol_2ed_612',['Icm20948DataBaseControl.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_data_base_control_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_data_base_control_8d.html',1,'(Global Namespace)']]],
-  ['icm20948databasedriver_2ed_613',['Icm20948DataBaseDriver.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_data_base_driver_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_data_base_driver_8d.html',1,'(Global Namespace)']]],
-  ['icm20948dataconverter_2ed_614',['Icm20948DataConverter.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_data_converter_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_data_converter_8d.html',1,'(Global Namespace)']]],
-  ['icm20948dmp3driver_2ed_615',['Icm20948Dmp3Driver.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_dmp3_driver_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_dmp3_driver_8d.html',1,'(Global Namespace)']]],
-  ['icm20948loadfirmware_2ed_616',['Icm20948LoadFirmware.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_load_firmware_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_load_firmware_8d.html',1,'(Global Namespace)']]],
-  ['icm20948mpufifocontrol_2ed_617',['Icm20948MPUFifoControl.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_m_p_u_fifo_control_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_m_p_u_fifo_control_8d.html',1,'(Global Namespace)']]],
-  ['icm20948selftest_2ed_618',['Icm20948SelfTest.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_self_test_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_self_test_8d.html',1,'(Global Namespace)']]],
-  ['icm20948setup_2ed_619',['Icm20948Setup.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_setup_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_setup_8d.html',1,'(Global Namespace)']]],
-  ['icm20948transport_2ed_620',['Icm20948Transport.d',['../_i_c_m20948___d_m_p___arduino_2_icm20948_transport_8d.html',1,'(Global Namespace)'],['../icm20948__inv_2_icm20948_transport_8d.html',1,'(Global Namespace)']]],
-  ['imu_2ed_621',['imu.d',['../imu_8d.html',1,'']]],
-  ['interrupt_2ec_622',['interrupt.c',['../interrupt_8c.html',1,'']]],
-  ['interrupt_2ed_623',['interrupt.d',['../interrupt_8d.html',1,'']]],
-  ['interrupt_2eh_624',['interrupt.h',['../interrupt_8h.html',1,'']]]
+  ['timer_2ec_544',['timer.c',['../timer_8c.html',1,'']]],
+  ['timer_2eh_545',['timer.h',['../timer_8h.html',1,'']]]
 ];

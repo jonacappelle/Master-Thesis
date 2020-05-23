@@ -1,9 +1,0 @@
-<map id="ICM_20948_read_mag_register" name="ICM_20948_read_mag_register">
-<area shape="rect" id="node1" title="Read register in the AK09916 magnetometer device." alt="" coords="481,49,632,90"/>
-<area shape="rect" id="node2" href="$_i_c_m20948_8h.html#abe547d7b034f54274da0607f457f2ac2" title="Init function for ICM20948." alt="" coords="39,5,150,32"/>
-<area shape="rect" id="node3" href="$_i_c_m20948_8h.html#a784752c7cf3630129dfd34f57cc5b440" title="Second init function for ICM20948, use when waking from sleep." alt="" coords="273,31,392,57"/>
-<area shape="rect" id="node4" href="$_i_c_m20948_8h.html#ad8fa2097274ad4e2b81faf5917a62679" title=" " alt="" coords="245,81,421,108"/>
-<area shape="rect" id="node7" href="$_i_c_m20948_8h.html#aad8d065bfe65cd7233c5916e2fa57bb1" title=" " alt="" coords="232,132,433,159"/>
-<area shape="rect" id="node5" href="$_i_c_m20948_8h.html#a0d8a914c518d9d869d3e4d9b7afeb672" title="Calculate minimum and maximum magnetometer values, which are used for calibration." alt="" coords="5,56,184,83"/>
-<area shape="rect" id="node6" href="$main_8c.html#abc879637bb3a20d42298d71b880980c6" title="Function called by interrupt from IMU @50 Hz." alt="" coords="41,107,148,133"/>
-</map>

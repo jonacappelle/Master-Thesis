@@ -1,4 +1,0 @@
-<map id="ICM_20948_Init2" name="ICM_20948_Init2">
-<area shape="rect" id="node1" title="Second init function for ICM20948, use when waking from sleep." alt="" coords="164,5,283,32"/>
-<area shape="rect" id="node2" href="$_i_c_m20948_8h.html#abe547d7b034f54274da0607f457f2ac2" title="Init function for ICM20948." alt="" coords="5,5,116,32"/>
-</map>

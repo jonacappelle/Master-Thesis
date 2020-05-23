@@ -1,7 +1,0 @@
-<map id="ICM_20948_write_mag_register" name="ICM_20948_write_mag_register">
-<area shape="rect" id="node1" title="Writes a uint8_t to the I2C address of the magnetometer of the ICM_20948." alt="" coords="561,17,715,58"/>
-<area shape="rect" id="node2" href="$_i_c_m20948_8h.html#a784752c7cf3630129dfd34f57cc5b440" title="Second init function for ICM20948, use when waking from sleep." alt="" coords="164,24,283,51"/>
-<area shape="rect" id="node4" href="$_i_c_m20948_8h.html#aed55c84082bcb8765a603d0e09f236a7" title=" " alt="" coords="345,24,499,51"/>
-<area shape="rect" id="node5" href="$_i_c_m20948_8h.html#ae81d4cfd5ba0ab7962bdc2ad2c002468" title=" " alt="" coords="331,75,513,101"/>
-<area shape="rect" id="node3" href="$_i_c_m20948_8h.html#abe547d7b034f54274da0607f457f2ac2" title="Init function for ICM20948." alt="" coords="5,49,116,76"/>
-</map>

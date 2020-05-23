@@ -1,4 +1,0 @@
-<map id="ICM_20948_read_mag_register" name="ICM_20948_read_mag_register">
-<area shape="rect" id="node1" title="Read register in the AK09916 magnetometer device." alt="" coords="5,5,156,47"/>
-<area shape="rect" id="node2" href="$_i2_c_8c.html#a06104f2b83b9e221737ba5a75c6edc4c" title="I2C read/write functionality, to read and write at the same time." alt="" coords="204,13,343,39"/>
-</map>
