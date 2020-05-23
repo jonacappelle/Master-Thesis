@@ -1,0 +1,7 @@
+<map id="ICM_20948_reset_mag" name="ICM_20948_reset_mag">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,160,61"/>
+<area shape="rect" id="node2" href="$delay_8c.html#adb46f4276f5ddf111153701858f85df6" title="Wait for a certain amount of milliseconds in EM2/3." alt="" coords="258,5,311,32"/>
+<area shape="rect" id="node4" href="$_i_c_m20948_8c.html#a7ed83e84f5d14637ea91c05174e84dcd" title="Writes a uint8_t to the I2C address of the magnetometer of the ICM_20948." alt="" coords="208,57,361,98"/>
+<area shape="rect" id="node3" href="$dbprint_8h.html#acb5d4e1082c625ad85d835d4e053d4d8" title=" " alt="" coords="435,5,491,32"/>
+<area shape="rect" id="node5" href="$_i2_c_8c.html#a47431e985fd340e0e1d8a112bfe9ddcc" title="I2C write functionality." alt="" coords="409,64,517,91"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="ICM_20948_wakeOnMotionITEnable" name="ICM_20948_wakeOnMotionITEnable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,284,236,311"/>
+<area shape="rect" id="node2" href="$delay_8c.html#adb46f4276f5ddf111153701858f85df6" title="Wait for a certain amount of milliseconds in EM2/3." alt="" coords="625,5,679,32"/>
+<area shape="rect" id="node4" href="$_i_c_m20948_8c.html#ab6d2dbd77995c450b5cab0068291cc37" title=" " alt="" coords="549,309,755,336"/>
+<area shape="rect" id="node9" href="$_i_c_m20948_8c.html#aa22d0eb7ceca8855eb2eece3d875f65e" title=" " alt="" coords="808,309,976,336"/>
+<area shape="rect" id="node10" href="$_i_c_m20948_8c.html#a1d964813062ec77bcd52135dab29654d" title=" " alt="" coords="553,56,751,83"/>
+<area shape="rect" id="node11" href="$_i_c_m20948_8c.html#aa97147c0f9f71cfaea563fb4b1d64306" title=" " alt="" coords="553,360,751,387"/>
+<area shape="rect" id="node12" href="$_i_c_m20948_8c.html#a70ee6c80001c77355f8d6f7e47ba43db" title=" " alt="" coords="299,411,481,437"/>
+<area shape="rect" id="node13" href="$_i_c_m20948_8c.html#a138a0d4e0dcbec3f93bb022ac655d3e7" title=" " alt="" coords="284,208,496,235"/>
+<area shape="rect" id="node14" href="$_i_c_m20948_8c.html#afafb9e426c5a0c760268db0cffd7f46e" title=" " alt="" coords="565,259,739,285"/>
+<area shape="rect" id="node15" href="$_i_c_m20948_8c.html#a8f1159f4f75b1eaed9a091d01fe76c3d" title=" " alt="" coords="553,157,751,184"/>
+<area shape="rect" id="node16" href="$_i_c_m20948_8c.html#ad640eb781cd8b92ce54c6e51754b36a5" title=" " alt="" coords="299,461,481,488"/>
+<area shape="rect" id="node3" href="$dbprint_8h.html#acb5d4e1082c625ad85d835d4e053d4d8" title=" " alt="" coords="864,5,920,32"/>
+<area shape="rect" id="node5" href="$_i_c_m20948_8c.html#a9f8e3ac3e31a7d1a441e1a8ceb3470c8" title=" " alt="" coords="809,183,975,209"/>
+<area shape="rect" id="node6" href="$_i_c_m20948_8c.html#aa9c1a0462c03c5af6e1ccff792128450" title="Select appropriate bank in ICM20948 based on first bits of address." alt="" coords="1024,259,1183,285"/>
+<area shape="rect" id="node8" href="$_i2_c_8c.html#a06104f2b83b9e221737ba5a75c6edc4c" title="I2C read/write functionality, to read and write at the same time." alt="" coords="1034,183,1173,209"/>
+<area shape="rect" id="node7" href="$_i2_c_8c.html#a47431e985fd340e0e1d8a112bfe9ddcc" title="I2C write functionality." alt="" coords="1231,284,1339,311"/>
+<area shape="rect" id="node17" href="$_i_c_m20948_8c.html#afca99859e232ac24c63406fb22a8bd46" title=" " alt="" coords="544,461,760,488"/>
+<area shape="rect" id="node18" href="$_i_c_m20948_8c.html#a2a480bb1caa28241f1cc1e77a3445961" title=" " alt="" coords="547,512,757,539"/>
+</map>

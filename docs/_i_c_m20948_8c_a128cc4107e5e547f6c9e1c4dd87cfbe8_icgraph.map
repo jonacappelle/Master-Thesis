@@ -1,0 +1,7 @@
+<map id="ICM_20948_gyroFullscaleSet" name="ICM_20948_gyroFullscaleSet">
+<area shape="rect" id="node1" title=" " alt="" coords="416,56,607,83"/>
+<area shape="rect" id="node2" href="$_i_c_m20948_8h.html#ad503b9efac873146ca6401db153afe3e" title="Accelerometer and gyroscope calibration function. Reads the gyroscope and accelerometer values while ..." alt="" coords="164,5,368,32"/>
+<area shape="rect" id="node4" href="$_i_c_m20948_8h.html#a9adb9bb0176c243589f94aee803a8bb3" title="Gyroscope calibration function. Reads the gyroscope values while the device is at rest and in level...." alt="" coords="181,56,351,83"/>
+<area shape="rect" id="node5" href="$_i_c_m20948_8h.html#a784752c7cf3630129dfd34f57cc5b440" title="Second init function for ICM20948, use when waking from sleep." alt="" coords="207,107,325,133"/>
+<area shape="rect" id="node3" href="$_i_c_m20948_8h.html#abe547d7b034f54274da0607f457f2ac2" title="Init function for ICM20948." alt="" coords="5,56,116,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="ICM_20948_bankSelect" name="ICM_20948_bankSelect">
+<area shape="rect" id="node1" title="Select appropriate bank in ICM20948 based on first bits of address." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node2" href="$_i2_c_8c.html#a47431e985fd340e0e1d8a112bfe9ddcc" title="I2C write functionality." alt="" coords="212,5,320,32"/>
+</map>

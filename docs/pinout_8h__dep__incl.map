@@ -1,0 +1,10 @@
+<map id="inc/pinout.h" name="inc/pinout.h">
+<area shape="rect" id="node1" title="File to keep track of most the pins used, pins for BLE are in own file BLE.h." alt="" coords="355,5,444,32"/>
+<area shape="rect" id="node2" href="$ble_8c.html" title="Send data via BLE wirelessly." alt="" coords="5,80,76,107"/>
+<area shape="rect" id="node3" href="$uart_8c.html" title=" " alt="" coords="100,80,176,107"/>
+<area shape="rect" id="node4" href="$_i2_c_8c.html" title="I2C function to read&#45;write the I2C bus, based on DRAMCO code." alt="" coords="200,80,295,107"/>
+<area shape="rect" id="node5" href="$_i_c_m20948_8c.html" title="Advanced funcions to control and read data from the ICM&#45;20948." alt="" coords="319,80,479,107"/>
+<area shape="rect" id="node6" href="$util_8c.html" title=" " alt="" coords="504,80,575,107"/>
+<area shape="rect" id="node7" href="$interrupt_8c.html" title="Code to detect and generate interrupts." alt="" coords="599,80,730,107"/>
+<area shape="rect" id="node8" href="$main_8c.html" title="Code used in master thesis, MAIN FILE." alt="" coords="754,80,837,107"/>
+</map>

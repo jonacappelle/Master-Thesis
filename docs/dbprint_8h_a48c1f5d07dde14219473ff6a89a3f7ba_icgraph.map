@@ -1,0 +1,14 @@
+<map id="dbprint" name="dbprint">
+<area shape="rect" id="node1" title=" " alt="" coords="425,183,487,209"/>
+<area shape="rect" id="node2" href="$adc_8h.html#a4804ef696fe771bc2e157806ee132b59" title="Print battery in millivolts using dbprint." alt="" coords="221,5,333,32"/>
+<area shape="rect" id="node3" href="$main_8c.html#a87d72653156b83829786f1f856ecbad1" title="GPIO Even IRQ for pushbuttons on even&#45;numbered pins." alt="" coords="191,56,362,83"/>
+<area shape="rect" id="node4" href="$main_8c.html#a8fff5a798ff4721659dc7bdbb3149c8b" title="GPIO Odd IRQ for pushbuttons on odd&#45;numbered pins." alt="" coords="195,107,358,133"/>
+<area shape="rect" id="node5" href="$_i_c_m20948_8h.html#a784752c7cf3630129dfd34f57cc5b440" title="Second init function for ICM20948, use when waking from sleep." alt="" coords="217,157,336,184"/>
+<area shape="rect" id="node7" href="$_i_c_m20948_8h.html#aad8d065bfe65cd7233c5916e2fa57bb1" title=" " alt="" coords="176,208,377,235"/>
+<area shape="rect" id="node8" href="$_i_c_m20948_8h.html#a0d8a914c518d9d869d3e4d9b7afeb672" title="Calculate minimum and maximum magnetometer values, which are used for calibration." alt="" coords="187,259,366,285"/>
+<area shape="rect" id="node9" href="$_i_c_m20948_8h.html#adac3c17a3cdba84cde8bad432e1b2e58" title="Print all gyro + accel + magn data using dbprint." alt="" coords="196,309,357,336"/>
+<area shape="rect" id="node10" href="$_i_c_m20948_8c.html#ab25e7c803027dbf8de4c205763ac39ab" title=" " alt="" coords="225,360,328,387"/>
+<area shape="rect" id="node6" href="$_i_c_m20948_8h.html#abe547d7b034f54274da0607f457f2ac2" title="Init function for ICM20948." alt="" coords="11,157,122,184"/>
+<area shape="rect" id="node11" href="$_i_c_m20948_8c.html#a0556327f5e2a9693e8928ef676943851" title=" " alt="" coords="7,335,127,361"/>
+<area shape="rect" id="node12" href="$_i_c_m20948_8c.html#a139d96443873e815a9301c1432e640b6" title=" " alt="" coords="5,385,128,412"/>
+</map>

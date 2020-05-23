@@ -1,0 +1,10 @@
+<map id="ICM_20948_min_max_mag" name="ICM_20948_min_max_mag">
+<area shape="rect" id="node1" title="Calculate minimum and maximum magnetometer values, which are used for calibration." alt="" coords="5,107,184,133"/>
+<area shape="rect" id="node2" href="$dbprint_8h.html#a48c1f5d07dde14219473ff6a89a3f7ba" title=" " alt="" coords="289,5,351,32"/>
+<area shape="rect" id="node3" href="$dbprint_8h.html#a4e4e18f85e358d8cc702ea8c2f190503" title=" " alt="" coords="283,56,357,83"/>
+<area shape="rect" id="node4" href="$dbprint_8h.html#a5e059a469cca8341eb0a84e5c352f518" title=" " alt="" coords="285,107,355,133"/>
+<area shape="rect" id="node5" href="$_i_c_m20948_8c.html#ad8fa2097274ad4e2b81faf5917a62679" title=" " alt="" coords="232,157,408,184"/>
+<area shape="rect" id="node8" href="$timer_8c.html#acd8d13c328bebdf9eddea27ff9448c2d" title=" " alt="" coords="294,208,346,235"/>
+<area shape="rect" id="node6" href="$_i_c_m20948_8c.html#afa39af5c47122519a8bed2bcafd5ee06" title="Read register in the AK09916 magnetometer device." alt="" coords="456,150,607,191"/>
+<area shape="rect" id="node7" href="$_i2_c_8c.html#a06104f2b83b9e221737ba5a75c6edc4c" title="I2C read/write functionality, to read and write at the same time." alt="" coords="655,157,793,184"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ICM_20948_sensorEnable" name="ICM_20948_sensorEnable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,179,83"/>
+<area shape="rect" id="node2" href="$_i_c_m20948_8c.html#a9f8e3ac3e31a7d1a441e1a8ceb3470c8" title=" " alt="" coords="227,31,394,57"/>
+<area shape="rect" id="node6" href="$_i_c_m20948_8c.html#aa22d0eb7ceca8855eb2eece3d875f65e" title=" " alt="" coords="227,81,395,108"/>
+<area shape="rect" id="node3" href="$_i_c_m20948_8c.html#aa9c1a0462c03c5af6e1ccff792128450" title="Select appropriate bank in ICM20948 based on first bits of address." alt="" coords="443,56,601,83"/>
+<area shape="rect" id="node5" href="$_i2_c_8c.html#a06104f2b83b9e221737ba5a75c6edc4c" title="I2C read/write functionality, to read and write at the same time." alt="" coords="453,5,591,32"/>
+<area shape="rect" id="node4" href="$_i2_c_8c.html#a47431e985fd340e0e1d8a112bfe9ddcc" title="I2C write functionality." alt="" coords="649,81,757,108"/>
+</map>

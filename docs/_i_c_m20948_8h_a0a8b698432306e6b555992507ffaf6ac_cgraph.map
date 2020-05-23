@@ -1,0 +1,6 @@
+<map id="ICM_20948_set_mag_transfer" name="ICM_20948_set_mag_transfer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,200,57"/>
+<area shape="rect" id="node2" href="$_i_c_m20948_8c.html#aa22d0eb7ceca8855eb2eece3d875f65e" title=" " alt="" coords="248,31,416,57"/>
+<area shape="rect" id="node3" href="$_i_c_m20948_8c.html#aa9c1a0462c03c5af6e1ccff792128450" title="Select appropriate bank in ICM20948 based on first bits of address." alt="" coords="464,5,623,32"/>
+<area shape="rect" id="node4" href="$_i2_c_8c.html#a47431e985fd340e0e1d8a112bfe9ddcc" title="I2C write functionality." alt="" coords="671,31,779,57"/>
+</map>

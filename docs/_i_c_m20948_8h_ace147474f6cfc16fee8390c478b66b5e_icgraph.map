@@ -1,0 +1,4 @@
+<map id="ICM_20948_power" name="ICM_20948_power">
+<area shape="rect" id="node1" title="Turns the GPIO pin high to provide power to the ICM20948." alt="" coords="164,5,292,32"/>
+<area shape="rect" id="node2" href="$_i_c_m20948_8h.html#abe547d7b034f54274da0607f457f2ac2" title="Init function for ICM20948." alt="" coords="5,5,116,32"/>
+</map>

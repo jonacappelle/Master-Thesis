@@ -1,0 +1,8 @@
+<map id="Comm/I2C.c" name="Comm/I2C.c">
+<area shape="rect" id="node1" title="I2C function to read&#45;write the I2C bus, based on DRAMCO code." alt="" coords="138,5,233,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,80,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="104,80,179,107"/>
+<area shape="rect" id="node4" href="$_i2_c_8h.html" title="I2C function to read&#45;write the I2C bus, based on DRAMCO code." alt="" coords="203,80,255,107"/>
+<area shape="rect" id="node6" href="$pinout_8h.html" title="File to keep track of most the pins used, pins for BLE are in own file BLE.h." alt="" coords="279,80,347,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="192,155,267,181"/>
+</map>
