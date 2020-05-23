@@ -109,21 +109,24 @@ $(document).ready(function(){initNavTree('timer_8c_source.html','');});
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;stdio.h&quot;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="timer_8h.html#acd8d13c328bebdf9eddea27ff9448c2d">   18</a></span>&#160;uint32_t <a class="code" href="timer_8c.html#acd8d13c328bebdf9eddea27ff9448c2d">millis</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> RTCDRV_TicksToMsec(RTCDRV_GetWallClockTicks64());</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="timer_8h.html#af543edc4b91ee97e556de2f0bbc709ad">   23</a></span>&#160;uint32_t <a class="code" href="timer_8c.html#af543edc4b91ee97e556de2f0bbc709ad">micros</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> 1000 * RTCDRV_TicksToMsec(RTCDRV_GetWallClockTicks64());</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">/**************************************************************************/</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="timer_8h.html#acd8d13c328bebdf9eddea27ff9448c2d">   24</a></span>&#160;uint32_t <a class="code" href="timer_8c.html#acd8d13c328bebdf9eddea27ff9448c2d">millis</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> RTCDRV_TicksToMsec(RTCDRV_GetWallClockTicks64());</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">/**************************************************************************/</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="timer_8h.html#af543edc4b91ee97e556de2f0bbc709ad">   36</a></span>&#160;uint32_t <a class="code" href="timer_8c.html#af543edc4b91ee97e556de2f0bbc709ad">micros</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> 1000 * RTCDRV_TicksToMsec(RTCDRV_GetWallClockTicks64());</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="artcdrv__config_8h_html"><div class="ttname"><a href="rtcdrv__config_8h.html">rtcdrv_config.h</a></div></div>
-<div class="ttc" id="atimer_8c_html_acd8d13c328bebdf9eddea27ff9448c2d"><div class="ttname"><a href="timer_8c.html#acd8d13c328bebdf9eddea27ff9448c2d">millis</a></div><div class="ttdeci">uint32_t millis(void)</div><div class="ttdef"><b>Definition:</b> <a href="timer_8c_source.html#l00018">timer.c:18</a></div></div>
+<div class="ttc" id="atimer_8c_html_acd8d13c328bebdf9eddea27ff9448c2d"><div class="ttname"><a href="timer_8c.html#acd8d13c328bebdf9eddea27ff9448c2d">millis</a></div><div class="ttdeci">uint32_t millis(void)</div><div class="ttdoc">Millis Arduino like functionality for EFM32HG.</div><div class="ttdef"><b>Definition:</b> <a href="timer_8c_source.html#l00024">timer.c:24</a></div></div>
 <div class="ttc" id="atimer_8h_html"><div class="ttname"><a href="timer_8h.html">timer.h</a></div></div>
-<div class="ttc" id="atimer_8c_html_af543edc4b91ee97e556de2f0bbc709ad"><div class="ttname"><a href="timer_8c.html#af543edc4b91ee97e556de2f0bbc709ad">micros</a></div><div class="ttdeci">uint32_t micros(void)</div><div class="ttdef"><b>Definition:</b> <a href="timer_8c_source.html#l00023">timer.c:23</a></div></div>
+<div class="ttc" id="atimer_8c_html_af543edc4b91ee97e556de2f0bbc709ad"><div class="ttname"><a href="timer_8c.html#af543edc4b91ee97e556de2f0bbc709ad">micros</a></div><div class="ttdeci">uint32_t micros(void)</div><div class="ttdoc">Micros Arduino like functionality for EFM32HG.</div><div class="ttdef"><b>Definition:</b> <a href="timer_8c_source.html#l00036">timer.c:36</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

@@ -112,8 +112,10 @@ Include dependency graph for timer.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:acd8d13c328bebdf9eddea27ff9448c2d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8c.html#acd8d13c328bebdf9eddea27ff9448c2d">millis</a> (void)</td></tr>
+<tr class="memdesc:acd8d13c328bebdf9eddea27ff9448c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Millis Arduino like functionality for EFM32HG.  <a href="timer_8c.html#acd8d13c328bebdf9eddea27ff9448c2d">More...</a><br /></td></tr>
 <tr class="separator:acd8d13c328bebdf9eddea27ff9448c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af543edc4b91ee97e556de2f0bbc709ad"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timer_8c.html#af543edc4b91ee97e556de2f0bbc709ad">micros</a> (void)</td></tr>
+<tr class="memdesc:af543edc4b91ee97e556de2f0bbc709ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Micros Arduino like functionality for EFM32HG.  <a href="timer_8c.html#af543edc4b91ee97e556de2f0bbc709ad">More...</a><br /></td></tr>
 <tr class="separator:af543edc4b91ee97e556de2f0bbc709ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -133,10 +135,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="timer_8c_source.html#l00023">23</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> 1000 * RTCDRV_TicksToMsec(RTCDRV_GetWallClockTicks64());</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<p>Micros Arduino like functionality for EFM32HG. </p>
+
+<p class="definition">Definition at line <a class="el" href="timer_8c_source.html#l00036">36</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> 1000 * RTCDRV_TicksToMsec(RTCDRV_GetWallClockTicks64());</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -156,12 +160,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="timer_8c_source.html#l00018">18</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> RTCDRV_TicksToMsec(RTCDRV_GetWallClockTicks64());</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<p>Millis Arduino like functionality for EFM32HG. </p>
+
+<p class="definition">Definition at line <a class="el" href="timer_8c_source.html#l00024">24</a> of file <a class="el" href="timer_8c_source.html">timer.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> RTCDRV_TicksToMsec(RTCDRV_GetWallClockTicks64());</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_i_c_m20948_8c_source.html#l01800">ICM_20948_min_max_mag()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_i_c_m20948_8c_source.html#l01891">ICM_20948_min_max_mag()</a>.</p>
 
 </div>
 </div>

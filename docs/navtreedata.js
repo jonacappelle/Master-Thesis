@@ -23,7 +23,11 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Master Thesis", "index.html", [
-    [ "Documentation", "index.html", null ],
+    [ "Documentation", "index.html", [
+      [ "Code", "index.html#autotoc_md1", null ],
+      [ "Versions", "index.html#autotoc_md2", null ],
+      [ "License", "index.html#autotoc_md3", null ]
+    ] ],
     [ "Todo List", "todo.html", null ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -53,7 +57,7 @@ var NAVTREEINDEX =
 "_g_o_o_d___t_o___k_n_o_w___h_a_n_d_y___s_t_u_f_f_8h.html",
 "ble_8h.html#a72cae68c65a0b3fba09e9650d6330f62",
 "icm20948__inv_2_icm20948_transport_8d.html",
-"pinout_8h.html#ac0fcd61ece1f100c02494fc94f0b0dad"
+"pinout_8h.html#abfd1f7ce70c5762e927301e84b5d17b6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
