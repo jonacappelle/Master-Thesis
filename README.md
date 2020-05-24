@@ -6,12 +6,10 @@
 
 # Master thesis: Research and Design of Sensor Node for NMSD Treatment
 
-Code documentation generated from `https://github.com/jonacappelle/Master-Thesis` GitHub repo.  
-Sensor node code is documented using Doxygen.
 
 
 # Code sensor node
-Documented using Doxygen: can be found here: `https://jonacappelle.github.io/Master-Thesis/`
+Documented using Doxygen: can be found here: https://jonacappelle.github.io/Master-Thesis/`
 
 | File        | Description           |
 | ------------- |-------------:|
@@ -30,7 +28,7 @@ Documented using Doxygen: can be found here: `https://jonacappelle.github.io/Mas
 | [Visualisation](https://github.com/jonacappelle/Master-Thesis/blob/master/receiver/visualisation_receiver.py) | Visualisation of orientation in VPython |
 
 
-## Result Hardware
+# Result Hardware
 <p align="center">
   <img width="400" src="https://github.com/jonacappelle/Master-Thesis/blob/master/elements/sensor_node_case_1.jpg">
 </p>
