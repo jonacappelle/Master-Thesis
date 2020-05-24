@@ -2,11 +2,11 @@
 ![Target device](https://img.shields.io/badge/target%20device-EFM32HG322F64G-yellow?style=flat-square)
 ![Release data](https://img.shields.io/github/v/release/jonacappelle/Master-Thesis?style=flat-square)
 
-[Click here](https://jonacappelle.github.io/Master-Thesis/) for the souce code.
+
 
 # Master thesis: Research and Design of Sensor Node for NMSD Treatment
 
-
+[`Click here`](https://jonacappelle.github.io/Master-Thesis/) for the documented souce code.
 
 # Code sensor node
 Documented using Doxygen: can be found here: https://jonacappelle.github.io/Master-Thesis/`
@@ -28,7 +28,7 @@ Documented using Doxygen: can be found here: https://jonacappelle.github.io/Mast
 | [Visualisation](https://github.com/jonacappelle/Master-Thesis/blob/master/receiver/visualisation_receiver.py) | Visualisation of orientation in VPython |
 
 
-# Result Hardware
+# Hardware
 <p align="center">
   <img width="400" src="https://github.com/jonacappelle/Master-Thesis/blob/master/elements/sensor_node_case_1.jpg">
 </p>
