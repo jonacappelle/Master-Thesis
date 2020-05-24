@@ -1,8 +1,8 @@
 <map id="dbprint/debug_dbprint.h" name="dbprint/debug_dbprint.h">
 <area shape="rect" id="node1" title="Enable or disable printing to UART with dbprint." alt="" coords="347,5,505,32"/>
-<area shape="rect" id="node2" href="$adc_8c.html" title=" " alt="" coords="5,80,84,107"/>
+<area shape="rect" id="node2" href="$adc_8c.html" title="Read battery voltage." alt="" coords="5,80,84,107"/>
 <area shape="rect" id="node3" href="$ble_8c.html" title="Send data via BLE wirelessly." alt="" coords="108,80,179,107"/>
-<area shape="rect" id="node4" href="$uart_8c.html" title=" " alt="" coords="203,80,279,107"/>
+<area shape="rect" id="node4" href="$uart_8c.html" title="UART communication with BLE." alt="" coords="203,80,279,107"/>
 <area shape="rect" id="node5" href="$dbprint_8c.html" title="Homebrew println/printf replacement &quot;DeBugPrint&quot;." alt="" coords="303,80,418,107"/>
 <area shape="rect" id="node6" href="$delay_8c.html" title="Delay functionality." alt="" coords="442,80,541,107"/>
 <area shape="rect" id="node7" href="$_i_c_m20948_8c.html" title="Advanced funcions to control and read data from the ICM&#45;20948." alt="" coords="565,80,725,107"/>

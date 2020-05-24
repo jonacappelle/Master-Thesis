@@ -1,12 +1,12 @@
 <map id="ble/uart.c" name="ble/uart.c">
-<area shape="rect" id="node1" title=" " alt="" coords="443,5,519,32"/>
-<area shape="rect" id="node2" href="$uart_8h.html" title=" " alt="" coords="28,80,83,107"/>
+<area shape="rect" id="node1" title="UART communication with BLE." alt="" coords="443,5,519,32"/>
+<area shape="rect" id="node2" href="$uart_8h.html" title="UART communication with BLE." alt="" coords="28,80,83,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,155,71,181"/>
 <area shape="rect" id="node5" title=" " alt="" coords="183,80,269,107"/>
 <area shape="rect" id="node6" href="$pinout_8h.html" title="File to keep track of most the pins used, pins for BLE are in own file BLE.h." alt="" coords="293,80,361,107"/>
 <area shape="rect" id="node7" title=" " alt="" coords="386,80,469,107"/>
 <area shape="rect" id="node8" title=" " alt="" coords="493,80,575,107"/>
-<area shape="rect" id="node9" href="$ble_8h.html" title=" " alt="" coords="107,80,158,107"/>
+<area shape="rect" id="node9" href="$ble_8h.html" title="Send data via BLE wirelessly." alt="" coords="107,80,158,107"/>
 <area shape="rect" id="node10" title=" " alt="" coords="600,80,695,107"/>
 <area shape="rect" id="node11" title=" " alt="" coords="719,80,802,107"/>
 <area shape="rect" id="node12" title=" " alt="" coords="826,80,909,107"/>

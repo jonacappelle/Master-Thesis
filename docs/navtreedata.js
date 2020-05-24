@@ -24,9 +24,10 @@ var NAVTREE =
 [
   [ "Master Thesis", "index.html", [
     [ "Documentation", "index.html", [
-      [ "Code", "index.html#autotoc_md1", null ],
-      [ "Versions", "index.html#autotoc_md2", null ],
-      [ "License", "index.html#autotoc_md3", null ]
+      [ "Code sensor node", "index.html#autotoc_md1", null ],
+      [ "Code receiver", "index.html#autotoc_md2", null ],
+      [ "Versions", "index.html#autotoc_md3", null ],
+      [ "License", "index.html#autotoc_md4", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Data Structures", "annotated.html", [
@@ -56,7 +57,7 @@ var NAVTREEINDEX =
 [
 "_i2_c_8c.html",
 "dbprint_8h.html#a30d5293f29342e2bf8b795eb96a61607a35d6719cb4d7577c031b3d79057a1b79",
-"pinout_8h.html#a5ecd59a0a643def2bf66c320e8c36a44"
+"pinout_8h.html#a5ebf48f2fe9665273b6985b18ecd1c79"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

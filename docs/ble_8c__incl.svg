@@ -19,7 +19,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="ble_8h.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="ble_8h.html" target="_top" xlink:title="Send data via BLE wirelessly.">
 <polygon fill="white" stroke="black" points="74.9352,-56.5 74.9352,-75.5 112.935,-75.5 112.935,-56.5 74.9352,-56.5"/>
 <text text-anchor="middle" x="93.9352" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">ble.h</text>
 </a>
@@ -227,7 +227,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="interrupt_8h.html" target="_top" xlink:title=" ">
+<g id="a_node18"><a xlink:href="interrupt_8h.html" target="_top" xlink:title="Code to detect and generate interrupts.">
 <polygon fill="white" stroke="black" points="1284.94,-56.5 1284.94,-75.5 1344.94,-75.5 1344.94,-56.5 1284.94,-56.5"/>
 <text text-anchor="middle" x="1314.94" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">interrupt.h</text>
 </a>
@@ -240,7 +240,7 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="adc_8h.html" target="_top" xlink:title=" ">
+<g id="a_node19"><a xlink:href="adc_8h.html" target="_top" xlink:title="Read battery voltage.">
 <polygon fill="white" stroke="black" points="15.4352,-56.5 15.4352,-75.5 56.4352,-75.5 56.4352,-56.5 15.4352,-56.5"/>
 <text text-anchor="middle" x="35.9352" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">adc.h</text>
 </a>
@@ -266,7 +266,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="uart_8h.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="uart_8h.html" target="_top" xlink:title="UART communication with BLE.">
 <polygon fill="white" stroke="black" points="197.435,-56.5 197.435,-75.5 238.435,-75.5 238.435,-56.5 197.435,-56.5"/>
 <text text-anchor="middle" x="217.935" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">uart.h</text>
 </a>

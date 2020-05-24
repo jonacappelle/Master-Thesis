@@ -94,17 +94,22 @@ $(document).ready(function(){initNavTree('util_8h.html','');});
 <div class="title">util.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Handy functions.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;stdint.h&quot;</code><br />
 <code>#include &quot;stdbool.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for util.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="util_8h__incl.svg" width="176" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="util_8h__incl.svg" width="176" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="util_8h__dep__incl.svg" width="190" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="util_8h__dep__incl.svg" width="190" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="util_8h_source.html">Go to the source code of this file.</a></p>
@@ -118,7 +123,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:a7811b865275e3209fb390a2c8b19179f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to blink LED on sensor node.  <a href="util_8h.html#a7811b865275e3209fb390a2c8b19179f">More...</a><br /></td></tr>
 <tr class="separator:a7811b865275e3209fb390a2c8b19179f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Handy functions. </p>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Jona Cappelle </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="util_8h_source.html">util.h</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a7811b865275e3209fb390a2c8b19179f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7811b865275e3209fb390a2c8b19179f">&#9670;&nbsp;</a></span>blink()</h2>
 
@@ -136,9 +147,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Function to blink LED on sensor node. </p>
-<p>xxx</p>
-<dl class="section note"><dt>Note</dt><dd>xxx</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>xxx</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">times</td><td>amount of times to blink the LED </td></tr>
@@ -146,23 +154,23 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="util_8c_source.html#l00060">60</a> of file <a class="el" href="util_8c_source.html">util.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#if DIY == 1</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    GPIO_PinModeSet(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>, gpioModePushPull, 0);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; times; i++){</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        GPIO_PinOutSet(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="delay_8c.html#adb46f4276f5ddf111153701858f85df6">delay</a>(10);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        GPIO_PinOutClear(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="delay_8c.html#adb46f4276f5ddf111153701858f85df6">delay</a>(100);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        GPIO_PinOutSet(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="delay_8c.html#adb46f4276f5ddf111153701858f85df6">delay</a>(10);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        GPIO_PinOutClear(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="delay_8c.html#adb46f4276f5ddf111153701858f85df6">delay</a>(1000);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    GPIO_PinModeSet(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>, gpioModeDisabled, 0);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="util_8c_source.html#l00057">57</a> of file <a class="el" href="util_8c_source.html">util.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#if DIY == 1</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    GPIO_PinModeSet(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>, gpioModePushPull, 0);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; times; i++){</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        GPIO_PinOutSet(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="delay_8c.html#adb46f4276f5ddf111153701858f85df6">delay</a>(10);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        GPIO_PinOutClear(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="delay_8c.html#adb46f4276f5ddf111153701858f85df6">delay</a>(100);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        GPIO_PinOutSet(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="delay_8c.html#adb46f4276f5ddf111153701858f85df6">delay</a>(10);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        GPIO_PinOutClear(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="delay_8c.html#adb46f4276f5ddf111153701858f85df6">delay</a>(1000);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    GPIO_PinModeSet(<a class="code" href="pinout_8h.html#a663daa01e565aee93c6f20c5845b90b4">LED_PORT</a>, <a class="code" href="pinout_8h.html#ab4553be4db9860d940f81d7447173b2f">LED_PIN</a>, gpioModeDisabled, 0);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="delay_8c_source.html#l00116">delay()</a>, <a class="el" href="pinout_8h_source.html#l00021">LED_PIN</a>, and <a class="el" href="pinout_8h_source.html#l00020">LED_PORT</a>.</p>
 
@@ -201,7 +209,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check if two arrays are equal. </p>
-<dl class="section warning"><dt>Warning</dt><dd>xxx</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">arr1</td><td>first array </td></tr>
@@ -211,17 +218,17 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="util_8c_source.html#l00031">31</a> of file <a class="el" href="util_8c_source.html">util.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">for</span> (uint8_t i = 0; i &lt; length; i++)</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">if</span> (arr1[i] != arr2[i])</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="util_8c_source.html#l00036">36</a> of file <a class="el" href="util_8c_source.html">util.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">for</span> (uint8_t i = 0; i &lt; length; i++)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span> (arr1[i] != arr2[i])</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>

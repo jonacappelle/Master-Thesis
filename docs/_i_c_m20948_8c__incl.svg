@@ -19,7 +19,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="_i_c_m20948_8h.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="_i_c_m20948_8h.html" target="_top" xlink:title="Advanced funcions to control and read data from the ICM&#45;20948.">
 <polygon fill="white" stroke="black" points="80.3714,-56.5 80.3714,-75.5 148.371,-75.5 148.371,-56.5 80.3714,-56.5"/>
 <text text-anchor="middle" x="114.371" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICM20948.h</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="timer_8h.html" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="timer_8h.html" target="_top" xlink:title="millis and micros functionality">
 <polygon fill="white" stroke="black" points="223.871,-56.5 223.871,-75.5 270.871,-75.5 270.871,-56.5 223.871,-56.5"/>
 <text text-anchor="middle" x="247.371" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">timer.h</text>
 </a>

@@ -1,6 +1,6 @@
 <map id="delay/timer.h" name="delay/timer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="159,5,256,32"/>
-<area shape="rect" id="node2" href="$timer_8c.html" title=" " alt="" coords="5,80,103,107"/>
+<area shape="rect" id="node1" title="millis and micros functionality" alt="" coords="159,5,256,32"/>
+<area shape="rect" id="node2" href="$timer_8c.html" title="millis and micros functionality" alt="" coords="5,80,103,107"/>
 <area shape="rect" id="node3" href="$_i_c_m20948_8c.html" title="Advanced funcions to control and read data from the ICM&#45;20948." alt="" coords="127,80,287,107"/>
 <area shape="rect" id="node4" href="$main_8c.html" title="Code used in master thesis, MAIN FILE." alt="" coords="311,80,394,107"/>
 </map>

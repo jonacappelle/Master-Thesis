@@ -112,7 +112,8 @@ $(document).ready(function(){initNavTree('interrupt_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for interrupt.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="interrupt_8c__incl.svg" width="1199" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="interrupt_8c__incl.svg" width="1199" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="interrupt_8c_source.html">Go to the source code of this file.</a></p>
@@ -125,7 +126,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Code to detect and generate interrupts. </p>
-<p>In development... </p><dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Jona Cappelle </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="interrupt_8c_source.html">interrupt.c</a>.</p>
@@ -149,32 +150,32 @@ Functions</h2></td></tr>
 <p>GPIO interrupt initialization. </p>
 <p>Interrupt functionality used by IMU </p>
 
-<p class="definition">Definition at line <a class="el" href="interrupt_8c_source.html#l00043">43</a> of file <a class="el" href="interrupt_8c_source.html">interrupt.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="comment">// Configure GPIO pins</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  CMU_ClockEnable(cmuClock_GPIO, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="comment">// Configure PB0 and PB1 as input with glitch filter enabled</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  GPIO_PinModeSet(<a class="code" href="pinout_8h.html#a3d25e3a3e66aedfd9abe6a194454b245">ICM_20948_INTERRUPT_PORT</a>, <a class="code" href="pinout_8h.html#abbc2a2d9bcb574c3c6ca6bf8ac9ba4dd">ICM_20948_INTERRUPT_PIN</a>, gpioModeInputPullFilter, 0);</div>
+<p class="definition">Definition at line <a class="el" href="interrupt_8c_source.html#l00042">42</a> of file <a class="el" href="interrupt_8c_source.html">interrupt.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="comment">// Configure GPIO pins</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  CMU_ClockEnable(cmuClock_GPIO, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="comment">// Configure PB0 and PB1 as input with glitch filter enabled</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  GPIO_PinModeSet(<a class="code" href="pinout_8h.html#a3d25e3a3e66aedfd9abe6a194454b245">ICM_20948_INTERRUPT_PORT</a>, <a class="code" href="pinout_8h.html#abbc2a2d9bcb574c3c6ca6bf8ac9ba4dd">ICM_20948_INTERRUPT_PIN</a>, gpioModeInputPullFilter, 0);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="comment">/* Clear all odd pin interrupt flags (just in case)</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">   * NVIC_ClearPendingIRQ(GPIO_ODD_IRQn); would also work but is less &quot;readable&quot; */</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  GPIO_IntClear(0xAAAA);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="comment">/* Clear all even pin interrupt flags (just in case)</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">   * NVIC_ClearPendingIRQ(GPIO_EVEN_IRQn); would also work but is less &quot;readable&quot; */</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  GPIO_IntClear(0x5555);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="comment">// Enable IRQ for even numbered GPIO pins</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  NVIC_EnableIRQ(GPIO_EVEN_IRQn);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="comment">// Enable IRQ for odd numbered GPIO pins</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  NVIC_EnableIRQ(GPIO_ODD_IRQn);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="comment">/* Enable rising-edge interrupts for ICM_20948 */</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  GPIO_ExtIntConfig(<a class="code" href="pinout_8h.html#a3d25e3a3e66aedfd9abe6a194454b245">ICM_20948_INTERRUPT_PORT</a>, <a class="code" href="pinout_8h.html#abbc2a2d9bcb574c3c6ca6bf8ac9ba4dd">ICM_20948_INTERRUPT_PIN</a>, <a class="code" href="pinout_8h.html#abbc2a2d9bcb574c3c6ca6bf8ac9ba4dd">ICM_20948_INTERRUPT_PIN</a>, <span class="keyword">true</span>, <span class="keyword">false</span>, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="comment">/* Clear all odd pin interrupt flags (just in case)</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">   * NVIC_ClearPendingIRQ(GPIO_ODD_IRQn); would also work but is less &quot;readable&quot; */</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  GPIO_IntClear(0xAAAA);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="comment">/* Clear all even pin interrupt flags (just in case)</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">   * NVIC_ClearPendingIRQ(GPIO_EVEN_IRQn); would also work but is less &quot;readable&quot; */</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  GPIO_IntClear(0x5555);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="comment">// Enable IRQ for even numbered GPIO pins</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  NVIC_EnableIRQ(GPIO_EVEN_IRQn);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="comment">// Enable IRQ for odd numbered GPIO pins</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  NVIC_EnableIRQ(GPIO_ODD_IRQn);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="comment">/* Enable rising-edge interrupts for ICM_20948 */</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  GPIO_ExtIntConfig(<a class="code" href="pinout_8h.html#a3d25e3a3e66aedfd9abe6a194454b245">ICM_20948_INTERRUPT_PORT</a>, <a class="code" href="pinout_8h.html#abbc2a2d9bcb574c3c6ca6bf8ac9ba4dd">ICM_20948_INTERRUPT_PIN</a>, <a class="code" href="pinout_8h.html#abbc2a2d9bcb574c3c6ca6bf8ac9ba4dd">ICM_20948_INTERRUPT_PIN</a>, <span class="keyword">true</span>, <span class="keyword">false</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="pinout_8h_source.html#l00040">ICM_20948_INTERRUPT_PIN</a>, and <a class="el" href="pinout_8h_source.html#l00041">ICM_20948_INTERRUPT_PORT</a>.</p>
 

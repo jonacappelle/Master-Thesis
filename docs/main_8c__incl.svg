@@ -19,7 +19,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="adc_8h.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="adc_8h.html" target="_top" xlink:title="Read battery voltage.">
 <polygon fill="white" stroke="black" points="14.0006,-56.5 14.0006,-75.5 55.0006,-75.5 55.0006,-56.5 14.0006,-56.5"/>
 <text text-anchor="middle" x="34.5006" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">adc.h</text>
 </a>
@@ -227,7 +227,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="_i_c_m20948_8h.html" target="_top" xlink:title=" ">
+<g id="a_node18"><a xlink:href="_i_c_m20948_8h.html" target="_top" xlink:title="Advanced funcions to control and read data from the ICM&#45;20948.">
 <polygon fill="white" stroke="black" points="159.501,-56.5 159.501,-75.5 227.501,-75.5 227.501,-56.5 159.501,-56.5"/>
 <text text-anchor="middle" x="193.501" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">ICM20948.h</text>
 </a>
@@ -240,7 +240,7 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="interrupt_8h.html" target="_top" xlink:title=" ">
+<g id="a_node19"><a xlink:href="interrupt_8h.html" target="_top" xlink:title="Code to detect and generate interrupts.">
 <polygon fill="white" stroke="black" points="1644.5,-56.5 1644.5,-75.5 1704.5,-75.5 1704.5,-56.5 1644.5,-56.5"/>
 <text text-anchor="middle" x="1674.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">interrupt.h</text>
 </a>
@@ -253,7 +253,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="ble_8h.html" target="_top" xlink:title=" ">
+<g id="a_node20"><a xlink:href="ble_8h.html" target="_top" xlink:title="Send data via BLE wirelessly.">
 <polygon fill="white" stroke="black" points="245.501,-56.5 245.501,-75.5 283.501,-75.5 283.501,-56.5 245.501,-56.5"/>
 <text text-anchor="middle" x="264.501" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">ble.h</text>
 </a>
@@ -266,7 +266,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="uart_8h.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="uart_8h.html" target="_top" xlink:title="UART communication with BLE.">
 <polygon fill="white" stroke="black" points="302.001,-56.5 302.001,-75.5 343.001,-75.5 343.001,-56.5 302.001,-56.5"/>
 <text text-anchor="middle" x="322.501" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">uart.h</text>
 </a>
@@ -279,7 +279,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="timer_8h.html" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="timer_8h.html" target="_top" xlink:title="millis and micros functionality">
 <polygon fill="white" stroke="black" points="484.001,-56.5 484.001,-75.5 531.001,-75.5 531.001,-56.5 484.001,-56.5"/>
 <text text-anchor="middle" x="507.501" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">timer.h</text>
 </a>
@@ -292,7 +292,7 @@
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="datatypes_8h.html" target="_top" xlink:title=" ">
+<g id="a_node24"><a xlink:href="datatypes_8h.html" target="_top" xlink:title="Datatypes.">
 <polygon fill="white" stroke="black" points="73.5006,-56.5 73.5006,-75.5 141.501,-75.5 141.501,-56.5 73.5006,-56.5"/>
 <text text-anchor="middle" x="107.501" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">datatypes.h</text>
 </a>
@@ -305,7 +305,7 @@
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="util_8h.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="util_8h.html" target="_top" xlink:title="Handy functions.">
 <polygon fill="white" stroke="black" points="361.501,-56.5 361.501,-75.5 399.501,-75.5 399.501,-56.5 361.501,-56.5"/>
 <text text-anchor="middle" x="380.501" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.h</text>
 </a>
@@ -318,7 +318,7 @@
 </g>
 <!-- Node26 -->
 <g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="rtcdrv__config_8h.html" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="rtcdrv__config_8h.html" target="_top" xlink:title="RTC timer config file.">
 <polygon fill="white" stroke="black" points="1723,-56.5 1723,-75.5 1802,-75.5 1802,-56.5 1723,-56.5"/>
 <text text-anchor="middle" x="1762.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">rtcdrv_config.h</text>
 </a>
@@ -357,7 +357,7 @@
 </g>
 <!-- Node29 -->
 <g id="node29" class="node"><title>Node29</title>
-<g id="a_node29"><a xlink:href="_madgwick_a_h_r_s_8h.html" target="_top" xlink:title=" ">
+<g id="a_node29"><a xlink:href="_madgwick_a_h_r_s_8h.html" target="_top" xlink:title="Sensor fusion.">
 <polygon fill="white" stroke="black" points="1889,-56.5 1889,-75.5 1984,-75.5 1984,-56.5 1889,-56.5"/>
 <text text-anchor="middle" x="1936.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">MadgwickAHRS.h</text>
 </a>

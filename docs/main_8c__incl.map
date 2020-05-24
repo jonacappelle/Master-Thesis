@@ -1,6 +1,6 @@
 <map id="src/main.c" name="src/main.c">
 <area shape="rect" id="node1" title="Code used in master thesis, MAIN FILE." alt="" coords="1271,5,1354,32"/>
-<area shape="rect" id="node2" href="$adc_8h.html" title=" " alt="" coords="24,80,79,107"/>
+<area shape="rect" id="node2" href="$adc_8h.html" title="Read battery voltage." alt="" coords="24,80,79,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="325,155,391,181"/>
 <area shape="rect" id="node4" title=" " alt="" coords="866,80,967,107"/>
 <area shape="rect" id="node5" title=" " alt="" coords="992,80,1087,107"/>
@@ -16,17 +16,17 @@
 <area shape="rect" id="node15" href="$debug__dbprint_8h.html" title="Enable or disable printing to UART with dbprint." alt="" coords="2059,80,2174,107"/>
 <area shape="rect" id="node16" href="$delay_8h.html" title="Delay functionality." alt="" coords="562,80,626,107"/>
 <area shape="rect" id="node17" title=" " alt="" coords="514,155,589,181"/>
-<area shape="rect" id="node18" href="$_i_c_m20948_8h.html" title=" " alt="" coords="218,80,309,107"/>
-<area shape="rect" id="node19" href="$interrupt_8h.html" title=" " alt="" coords="2198,80,2278,107"/>
-<area shape="rect" id="node20" href="$ble_8h.html" title=" " alt="" coords="333,80,383,107"/>
-<area shape="rect" id="node21" href="$uart_8h.html" title=" " alt="" coords="408,80,463,107"/>
-<area shape="rect" id="node22" href="$timer_8h.html" title=" " alt="" coords="651,80,713,107"/>
-<area shape="rect" id="node24" href="$datatypes_8h.html" title=" " alt="" coords="103,80,194,107"/>
-<area shape="rect" id="node25" href="$util_8h.html" title=" " alt="" coords="487,80,538,107"/>
-<area shape="rect" id="node26" href="$rtcdrv__config_8h.html" title=" " alt="" coords="2303,80,2408,107"/>
+<area shape="rect" id="node18" href="$_i_c_m20948_8h.html" title="Advanced funcions to control and read data from the ICM&#45;20948." alt="" coords="218,80,309,107"/>
+<area shape="rect" id="node19" href="$interrupt_8h.html" title="Code to detect and generate interrupts." alt="" coords="2198,80,2278,107"/>
+<area shape="rect" id="node20" href="$ble_8h.html" title="Send data via BLE wirelessly." alt="" coords="333,80,383,107"/>
+<area shape="rect" id="node21" href="$uart_8h.html" title="UART communication with BLE." alt="" coords="408,80,463,107"/>
+<area shape="rect" id="node22" href="$timer_8h.html" title="millis and micros functionality" alt="" coords="651,80,713,107"/>
+<area shape="rect" id="node24" href="$datatypes_8h.html" title="Datatypes." alt="" coords="103,80,194,107"/>
+<area shape="rect" id="node25" href="$util_8h.html" title="Handy functions." alt="" coords="487,80,538,107"/>
+<area shape="rect" id="node26" href="$rtcdrv__config_8h.html" title="RTC timer config file." alt="" coords="2303,80,2408,107"/>
 <area shape="rect" id="node27" href="$pinout_8h.html" title="File to keep track of most the pins used, pins for BLE are in own file BLE.h." alt="" coords="2432,80,2500,107"/>
 <area shape="rect" id="node28" href="$_i2_c_8h.html" title="I2C function to read&#45;write the I2C bus, based on DRAMCO code." alt="" coords="789,80,841,107"/>
-<area shape="rect" id="node29" href="$_madgwick_a_h_r_s_8h.html" title=" " alt="" coords="2524,80,2651,107"/>
+<area shape="rect" id="node29" href="$_madgwick_a_h_r_s_8h.html" title="Sensor fusion." alt="" coords="2524,80,2651,107"/>
 <area shape="rect" id="node30" title=" " alt="" coords="2675,80,2737,107"/>
 <area shape="rect" id="node31" title=" " alt="" coords="2761,80,2816,107"/>
 <area shape="rect" id="node32" title=" " alt="" coords="2841,80,2931,107"/>

@@ -1,6 +1,6 @@
 <map id="adc/adc.c" name="adc/adc.c">
-<area shape="rect" id="node1" title=" " alt="" coords="141,5,220,32"/>
-<area shape="rect" id="node2" href="$adc_8h.html" title=" " alt="" coords="11,80,65,107"/>
+<area shape="rect" id="node1" title="Read battery voltage." alt="" coords="141,5,220,32"/>
+<area shape="rect" id="node2" href="$adc_8h.html" title="Read battery voltage." alt="" coords="11,80,65,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="89,80,168,107"/>
 <area shape="rect" id="node5" title=" " alt="" coords="193,80,275,107"/>
 <area shape="rect" id="node6" href="$debug__dbprint_8h.html" title="Enable or disable printing to UART with dbprint." alt="" coords="299,80,414,107"/>

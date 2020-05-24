@@ -1,6 +1,6 @@
 <map id="ble/ble.c" name="ble/ble.c">
 <area shape="rect" id="node1" title="Send data via BLE wirelessly." alt="" coords="791,5,862,32"/>
-<area shape="rect" id="node2" href="$ble_8h.html" title=" " alt="" coords="105,80,156,107"/>
+<area shape="rect" id="node2" href="$ble_8h.html" title="Send data via BLE wirelessly." alt="" coords="105,80,156,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="98,155,163,181"/>
 <area shape="rect" id="node4" title=" " alt="" coords="223,155,297,181"/>
 <area shape="rect" id="node5" title=" " alt="" coords="399,80,494,107"/>
@@ -16,8 +16,8 @@
 <area shape="rect" id="node15" title=" " alt="" coords="1473,80,1556,107"/>
 <area shape="rect" id="node16" href="$debug__dbprint_8h.html" title="Enable or disable printing to UART with dbprint." alt="" coords="1580,80,1695,107"/>
 <area shape="rect" id="node17" href="$delay_8h.html" title="Delay functionality." alt="" coords="180,80,244,107"/>
-<area shape="rect" id="node18" href="$interrupt_8h.html" title=" " alt="" coords="1719,80,1799,107"/>
-<area shape="rect" id="node19" href="$adc_8h.html" title=" " alt="" coords="26,80,81,107"/>
+<area shape="rect" id="node18" href="$interrupt_8h.html" title="Code to detect and generate interrupts." alt="" coords="1719,80,1799,107"/>
+<area shape="rect" id="node19" href="$adc_8h.html" title="Read battery voltage." alt="" coords="26,80,81,107"/>
 <area shape="rect" id="node20" href="$pinout_8h.html" title="File to keep track of most the pins used, pins for BLE are in own file BLE.h." alt="" coords="1823,80,1891,107"/>
-<area shape="rect" id="node21" href="$uart_8h.html" title=" " alt="" coords="269,80,323,107"/>
+<area shape="rect" id="node21" href="$uart_8h.html" title="UART communication with BLE." alt="" coords="269,80,323,107"/>
 </map>

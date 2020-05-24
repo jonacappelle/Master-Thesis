@@ -32,7 +32,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="uart_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="uart_8c.html" target="_top" xlink:title="UART communication with BLE.">
 <polygon fill="white" stroke="black" points="71,-0.5 71,-19.5 128,-19.5 128,-0.5 71,-0.5"/>
 <text text-anchor="middle" x="99.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ble/uart.c</text>
 </a>
@@ -71,7 +71,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="util_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="util_8c.html" target="_top" xlink:title="Handy functions.">
 <polygon fill="white" stroke="black" points="374,-0.5 374,-19.5 427,-19.5 427,-0.5 374,-0.5"/>
 <text text-anchor="middle" x="400.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">inc/util.c</text>
 </a>

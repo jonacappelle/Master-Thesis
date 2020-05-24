@@ -1,6 +1,6 @@
 <map id="interrupt/interrupt.c" name="interrupt/interrupt.c">
 <area shape="rect" id="node1" title="Code to detect and generate interrupts." alt="" coords="516,5,647,32"/>
-<area shape="rect" id="node2" href="$interrupt_8h.html" title=" " alt="" coords="5,80,85,107"/>
+<area shape="rect" id="node2" href="$interrupt_8h.html" title="Code to detect and generate interrupts." alt="" coords="5,80,85,107"/>
 <area shape="rect" id="node3" href="$pinout_8h.html" title="File to keep track of most the pins used, pins for BLE are in own file BLE.h." alt="" coords="110,80,178,107"/>
 <area shape="rect" id="node4" href="$debug__dbprint_8h.html" title="Enable or disable printing to UART with dbprint." alt="" coords="203,80,317,107"/>
 <area shape="rect" id="node5" href="$delay_8h.html" title="Delay functionality." alt="" coords="392,80,456,107"/>

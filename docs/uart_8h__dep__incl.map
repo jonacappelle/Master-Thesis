@@ -1,6 +1,6 @@
 <map id="ble/uart.h" name="ble/uart.h">
-<area shape="rect" id="node1" title=" " alt="" coords="100,5,176,32"/>
+<area shape="rect" id="node1" title="UART communication with BLE." alt="" coords="100,5,176,32"/>
 <area shape="rect" id="node2" href="$ble_8c.html" title="Send data via BLE wirelessly." alt="" coords="5,80,76,107"/>
-<area shape="rect" id="node3" href="$uart_8c.html" title=" " alt="" coords="100,80,176,107"/>
+<area shape="rect" id="node3" href="$uart_8c.html" title="UART communication with BLE." alt="" coords="100,80,176,107"/>
 <area shape="rect" id="node4" href="$main_8c.html" title="Code used in master thesis, MAIN FILE." alt="" coords="201,80,283,107"/>
 </map>

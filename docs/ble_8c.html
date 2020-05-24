@@ -121,7 +121,8 @@ $(document).ready(function(){initNavTree('ble_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ble.c:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ble_8c__incl.svg" width="1896" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ble_8c__incl.svg" width="1896" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="ble_8c_source.html">Go to the source code of this file.</a></p>
@@ -211,7 +212,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="code" href="ble_8c.html#ad69980ef7e64035e707d084b26eb2395">bleConnected</a> = GPIO_PinInGet(<a class="code" href="ble_8h.html#a786154718d624b9f9b54b4fdea315d60">BLE_LED2_PORT</a>, <a class="code" href="ble_8h.html#ae68c0c30c3e2230b7c0aa72957df9ac6">BLE_LED2_PIN</a>);</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ble_8h_source.html#l00037">BLE_LED2_PIN</a>, <a class="el" href="ble_8h_source.html#l00038">BLE_LED2_PORT</a>, and <a class="el" href="main_8c_source.html#l00125">bleConnected</a>.</p>
+<p class="reference">References <a class="el" href="ble_8h_source.html#l00044">BLE_LED2_PIN</a>, <a class="el" href="ble_8h_source.html#l00045">BLE_LED2_PORT</a>, and <a class="el" href="main_8c_source.html#l00125">bleConnected</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00234">measure_send()</a>.</p>
 
@@ -312,7 +313,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    GPIO_PinModeSet(<a class="code" href="ble_8h.html#a786154718d624b9f9b54b4fdea315d60">BLE_LED2_PORT</a>, <a class="code" href="ble_8h.html#ae68c0c30c3e2230b7c0aa72957df9ac6">BLE_LED2_PIN</a>, gpioModeInputPullFilter, 0);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ble_8h_source.html#l00037">BLE_LED2_PIN</a>, <a class="el" href="ble_8h_source.html#l00038">BLE_LED2_PORT</a>, and <a class="el" href="uart_8c_source.html#l00049">uart_Init()</a>.</p>
+<p class="reference">References <a class="el" href="ble_8h_source.html#l00044">BLE_LED2_PIN</a>, <a class="el" href="ble_8h_source.html#l00045">BLE_LED2_PORT</a>, and <a class="el" href="uart_8c_source.html#l00057">uart_Init()</a>.</p>
 
 </div>
 </div>
@@ -374,7 +375,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">//  return 0;</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ble_8h_source.html#l00024">BLE_POWER_PIN</a>, and <a class="el" href="ble_8h_source.html#l00025">BLE_POWER_PORT</a>.</p>
+<p class="reference">References <a class="el" href="ble_8h_source.html#l00031">BLE_POWER_PIN</a>, and <a class="el" href="ble_8h_source.html#l00032">BLE_POWER_PORT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00234">measure_send()</a>.</p>
 
@@ -408,26 +409,26 @@ Variables</h2></td></tr>
 
 <p>Test function, not used. </p>
 
-<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00316">316</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;{</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment">//    while (1)</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment">//    {</span></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="comment">//      // Read a line from the UART</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment">//      for (int i = 0; i &lt; BUFFER_SIZE - 1 ; i++ )</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="comment">//      {</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment">//        RX_buffer[i] = USART_Rx(USART1);</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="comment">//        if (RX_buffer[i] == &#39;\r&#39;)</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="comment">//        {</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="comment">//          break; // Breaking on CR prevents it from being counted in the number of bytes</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment">//        }</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment">//      }</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment">//    }</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160; </div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <a class="code" href="uart_8c.html#a2668607f49a0a2293f0b26b45ff21f8c">uartGetData</a>( readData, length );</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160; </div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00308">308</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;{</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="comment">//    while (1)</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="comment">//    {</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="comment">//      // Read a line from the UART</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="comment">//      for (int i = 0; i &lt; BUFFER_SIZE - 1 ; i++ )</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="comment">//      {</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="comment">//        RX_buffer[i] = USART_Rx(USART1);</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="comment">//        if (RX_buffer[i] == &#39;\r&#39;)</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="comment">//        {</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment">//          break; // Breaking on CR prevents it from being counted in the number of bytes</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment">//        }</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="comment">//      }</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment">//    }</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160; </div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <a class="code" href="uart_8c.html#a2668607f49a0a2293f0b26b45ff21f8c">uartGetData</a>( readData, length );</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160; </div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="uart_8c_source.html#l00173">uartGetData()</a>.</p>
+<p class="reference">References <a class="el" href="uart_8c_source.html#l00185">uartGetData()</a>.</p>
 
 </div>
 </div>
@@ -475,7 +476,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ble_8h_source.html#l00027">BLE_PIN_RX</a>, <a class="el" href="ble_8h_source.html#l00026">BLE_PIN_TX</a>, and <a class="el" href="ble_8h_source.html#l00028">BLE_PORT</a>.</p>
+<p class="reference">References <a class="el" href="ble_8h_source.html#l00034">BLE_PIN_RX</a>, <a class="el" href="ble_8h_source.html#l00033">BLE_PIN_TX</a>, and <a class="el" href="ble_8h_source.html#l00035">BLE_PORT</a>.</p>
 
 </div>
 </div>
@@ -518,9 +519,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Send all the data over BLE. </p>
-<p>xxx</p>
-<dl class="section note"><dt>Note</dt><dd>xxx</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>xxx</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Euler angles </td></tr>
@@ -531,47 +529,47 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00269">269</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;{</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="keywordtype">int</span> ble_packet_length = length + 5;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="comment">// uint8_t ble_data[ble_packet_length];</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordtype">int</span> d = 0;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160; </div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    ble_data[0] = 0x02;</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    ble_data[1] = 0x04;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    ble_data[2] = length;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    ble_data[3] = 0x00;</div>
+<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00261">261</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;{</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordtype">int</span> ble_packet_length = length + 5;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <span class="comment">// uint8_t ble_data[ble_packet_length];</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordtype">int</span> d = 0;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160; </div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    ble_data[0] = 0x02;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    ble_data[1] = 0x04;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    ble_data[2] = length;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    ble_data[3] = 0x00;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160; </div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordflow">while</span> ( d &lt; length)</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    {</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        ble_data[4+d] = <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[d];</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        d++;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    }</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    ble_data[ble_packet_length-2] = batt[0];</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160; </div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">while</span> ( d &lt; length)</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    {</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        ble_data[4+d] = <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[d];</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        d++;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    }</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    ble_data[ble_packet_length-2] = batt[0];</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="comment">//calculate Checksum CS</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    uint8_t checksum = 0x00;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j=0;j&lt;(ble_packet_length-1);j++)</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    {</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        checksum = checksum^ble_data[j];</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    }</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="comment">//calculate Checksum CS</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    uint8_t checksum = 0x00;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j=0;j&lt;(ble_packet_length-1);j++)</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        checksum = checksum^ble_data[j];</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160; </div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    ble_data[ble_packet_length-1] = checksum;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160; </div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="comment">//Send data out</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="comment">//  for (int i = 0; i &lt; ble_packet_length; i++)</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment">//  {</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment">//        USART_Tx(USART1, ble_data[i]);</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="comment">//  }</span></div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160; </div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    ble_data[ble_packet_length-1] = checksum;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="comment">/* Send data interrupt driven */</span></div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160; </div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="comment">//Send data out</span></div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="comment">//  for (int i = 0; i &lt; ble_packet_length; i++)</span></div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="comment">//  {</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="comment">//        USART_Tx(USART1, ble_data[i]);</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="comment">//  }</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160; </div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="comment">/* Send data interrupt driven */</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160; </div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <a class="code" href="uart_8c.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a>( ble_data, ble_packet_length );</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160; </div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;}</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="uart_8c.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a>( ble_data, ble_packet_length );</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160; </div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="main_8c_source.html#l00122">data</a>, and <a class="el" href="uart_8c_source.html#l00137">uartPutData()</a>.</p>
+<p class="reference">References <a class="el" href="main_8c_source.html#l00122">data</a>, and <a class="el" href="uart_8c_source.html#l00148">uartPutData()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00234">measure_send()</a>.</p>
 
@@ -666,49 +664,49 @@ Variables</h2></td></tr>
 
 <p>Test function, not used. </p>
 
-<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00342">342</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;{</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordtype">int</span> d=0;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160; </div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <span class="comment">//Preface</span></div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <span class="comment">/* Start signal - command - length - payload - checksum */</span></div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[23] = { 0x02, 0x04, 0x06, 0x00 };</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160; </div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <span class="comment">//concatenate</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <span class="keywordflow">while</span> (d &lt; 6)</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;      {</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;          <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[4+d] = gyroData[d];</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;          d++;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;      }</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    d=0;</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">while</span> (d &lt; 6)</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    {</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[10+d] = accelData[d];</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        d++;</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    }</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    d=0;</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">while</span> (d &lt; 6)</div>
+<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00334">334</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;{</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="keywordtype">int</span> d=0;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160; </div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="comment">//Preface</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="comment">/* Start signal - command - length - payload - checksum */</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[23] = { 0x02, 0x04, 0x06, 0x00 };</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="comment">//concatenate</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    <span class="keywordflow">while</span> (d &lt; 6)</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;      {</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;          <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[4+d] = gyroData[d];</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;          d++;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;      }</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    d=0;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordflow">while</span> (d &lt; 6)</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    {</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[10+d] = accelData[d];</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        d++;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    d=0;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordflow">while</span> (d &lt; 6)</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    {</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[16+d] = magnData[d];</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        d++;</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    }</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160; </div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="comment">//calculate Checksum CS</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordtype">char</span> checksum = 0x00;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j=0;j&lt;(<span class="keyword">sizeof</span>(<a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>)/<span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));j++)</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    {</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[16+d] = magnData[d];</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        d++;</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    }</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160; </div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="comment">//calculate Checksum CS</span></div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <span class="keywordtype">char</span> checksum = 0x00;</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j=0;j&lt;(<span class="keyword">sizeof</span>(<a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>)/<span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));j++)</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    {</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        checksum = checksum^<a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[j];</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    }</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160; </div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[22] = checksum;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160; </div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160; </div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="comment">//Send data out</span></div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 23; i++) <span class="comment">//i runs until length of char data[]</span></div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    {</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;          USART_Tx(USART1, <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[i]);</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    }</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;}</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        checksum = checksum^<a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[j];</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    }</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160; </div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[22] = checksum;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160; </div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160; </div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="comment">//Send data out</span></div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 23; i++) <span class="comment">//i runs until length of char data[]</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    {</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;          USART_Tx(USART1, <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[i]);</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    }</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="main_8c_source.html#l00122">data</a>.</p>
 
@@ -732,8 +730,6 @@ Variables</h2></td></tr>
 
 <p>Set BLE output power. </p>
 <p>Momentarily not used, since the reset value of the BLE is the one used</p>
-<dl class="section note"><dt>Note</dt><dd>xxx</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>xxx</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">power</td><td>power value (see datasheet for options) </td></tr>
@@ -741,31 +737,31 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00454">454</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;{</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <span class="keywordtype">int</span> len = 7;</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        uint8_t <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[7];</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160; </div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[0] = 0x02;</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[1] = 0x11;</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[2] = 0x02;</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[3] = 0x00;</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[4] = 0x11;</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[5] = power;</div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160; </div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <span class="comment">//calculate Checksum CS</span></div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        uint8_t checksum = 0x00;</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j=0;j&lt;(7-1);j++)</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;        {</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;            checksum = checksum^<a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[j];</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;        }</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160; </div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[len-1] = checksum;</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160; </div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;        <a class="code" href="uart_8c.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a>( <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>, len );</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00441">441</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;{</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        <span class="keywordtype">int</span> len = 7;</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        uint8_t <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[7];</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160; </div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[0] = 0x02;</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[1] = 0x11;</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[2] = 0x02;</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[3] = 0x00;</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[4] = 0x11;</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[5] = power;</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160; </div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <span class="comment">//calculate Checksum CS</span></div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        uint8_t checksum = 0x00;</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j=0;j&lt;(7-1);j++)</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        {</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;            checksum = checksum^<a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[j];</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        }</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160; </div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>[len-1] = checksum;</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160; </div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;        <a class="code" href="uart_8c.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a>( <a class="code" href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a>, len );</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="main_8c_source.html#l00122">data</a>, and <a class="el" href="uart_8c_source.html#l00137">uartPutData()</a>.</p>
+<p class="reference">References <a class="el" href="main_8c_source.html#l00122">data</a>, and <a class="el" href="uart_8c_source.html#l00148">uartPutData()</a>.</p>
 
 </div>
 </div>
@@ -804,22 +800,22 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00399">399</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;{</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    <span class="keyword">union</span>{</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        <span class="keywordtype">float</span> in;</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        uint8_t bytes[<span class="keyword">sizeof</span>(float)];</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    }thing;</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160; </div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    thing.in = input[0];</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160; </div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> i=0; i&lt;<span class="keyword">sizeof</span>(float); i++)</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    {</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        out[i] = thing.bytes[i];</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    }</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00391">391</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;{</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    <span class="keyword">union</span>{</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        <span class="keywordtype">float</span> in;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        uint8_t bytes[<span class="keyword">sizeof</span>(float)];</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    }thing;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160; </div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    thing.in = input[0];</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160; </div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    <span class="keywordflow">for</span>( <span class="keywordtype">int</span> i=0; i&lt;<span class="keyword">sizeof</span>(float); i++)</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    {</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        out[i] = thing.bytes[i];</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    }</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="ble_8c_source.html#l00427">float_to_uint8_t_x3()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ble_8c_source.html#l00419">float_to_uint8_t_x3()</a>.</p>
 
 </div>
 </div>
@@ -858,16 +854,16 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00427">427</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;{</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160; </div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <a class="code" href="ble_8c.html#ad189f77377a584ab0aac3fff539264ef">float_to_uint8_t</a>( &amp;in[0], &amp;out[0] );</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    <a class="code" href="ble_8c.html#ad189f77377a584ab0aac3fff539264ef">float_to_uint8_t</a>( &amp;in[1], &amp;out[4] );</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <a class="code" href="ble_8c.html#ad189f77377a584ab0aac3fff539264ef">float_to_uint8_t</a>( &amp;in[2], &amp;out[8] );</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160; </div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="ble_8c_source.html#l00419">419</a> of file <a class="el" href="ble_8c_source.html">ble.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;{</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160; </div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <a class="code" href="ble_8c.html#ad189f77377a584ab0aac3fff539264ef">float_to_uint8_t</a>( &amp;in[0], &amp;out[0] );</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <a class="code" href="ble_8c.html#ad189f77377a584ab0aac3fff539264ef">float_to_uint8_t</a>( &amp;in[1], &amp;out[4] );</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <a class="code" href="ble_8c.html#ad189f77377a584ab0aac3fff539264ef">float_to_uint8_t</a>( &amp;in[2], &amp;out[8] );</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160; </div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="ble_8c_source.html#l00399">float_to_uint8_t()</a>.</p>
+<p class="reference">References <a class="el" href="ble_8c_source.html#l00391">float_to_uint8_t()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00234">measure_send()</a>.</p>
 
@@ -960,18 +956,18 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="amain_8c_html_ad2c9072e6e6a5758dfc647e1a08a9509"><div class="ttname"><a href="main_8c.html#ad2c9072e6e6a5758dfc647e1a08a9509">data</a></div><div class="ttdeci">MeasurementData_t data</div><div class="ttdef"><b>Definition:</b> <a href="main_8c_source.html#l00122">main.c:122</a></div></div>
-<div class="ttc" id="able_8h_html_a320064843034a6537dd6c5e78fad34ec"><div class="ttname"><a href="ble_8h.html#a320064843034a6537dd6c5e78fad34ec">BLE_PIN_RX</a></div><div class="ttdeci">#define BLE_PIN_RX</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00027">ble.h:27</a></div></div>
-<div class="ttc" id="auart_8c_html_acc9e5e3b3c328da0722df339f3c7ba39"><div class="ttname"><a href="uart_8c.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a></div><div class="ttdeci">void uartPutData(uint8_t *dataPtr, uint32_t dataLen)</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00137">uart.c:137</a></div></div>
-<div class="ttc" id="auart_8c_html_a50dc4e9c588520948f2ad223e583c446"><div class="ttname"><a href="uart_8c.html#a50dc4e9c588520948f2ad223e583c446">uart_Init</a></div><div class="ttdeci">void uart_Init()</div><div class="ttdoc">UART init.</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00049">uart.c:49</a></div></div>
+<div class="ttc" id="able_8h_html_a320064843034a6537dd6c5e78fad34ec"><div class="ttname"><a href="ble_8h.html#a320064843034a6537dd6c5e78fad34ec">BLE_PIN_RX</a></div><div class="ttdeci">#define BLE_PIN_RX</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00034">ble.h:34</a></div></div>
+<div class="ttc" id="auart_8c_html_acc9e5e3b3c328da0722df339f3c7ba39"><div class="ttname"><a href="uart_8c.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a></div><div class="ttdeci">void uartPutData(uint8_t *dataPtr, uint32_t dataLen)</div><div class="ttdoc">uartPutData function</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00148">uart.c:148</a></div></div>
+<div class="ttc" id="auart_8c_html_a50dc4e9c588520948f2ad223e583c446"><div class="ttname"><a href="uart_8c.html#a50dc4e9c588520948f2ad223e583c446">uart_Init</a></div><div class="ttdeci">void uart_Init()</div><div class="ttdoc">UART init.</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00057">uart.c:57</a></div></div>
 <div class="ttc" id="able_8c_html_ad69980ef7e64035e707d084b26eb2395"><div class="ttname"><a href="ble_8c.html#ad69980ef7e64035e707d084b26eb2395">bleConnected</a></div><div class="ttdeci">bool bleConnected</div><div class="ttdef"><b>Definition:</b> <a href="main_8c_source.html#l00125">main.c:125</a></div></div>
-<div class="ttc" id="able_8h_html_aa83892b8e633e60d6daa7a95adf101a6"><div class="ttname"><a href="ble_8h.html#aa83892b8e633e60d6daa7a95adf101a6">BLE_POWER_PIN</a></div><div class="ttdeci">#define BLE_POWER_PIN</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00024">ble.h:24</a></div></div>
-<div class="ttc" id="able_8h_html_aa90b5af234f0bfd7ee1e2830a483968f"><div class="ttname"><a href="ble_8h.html#aa90b5af234f0bfd7ee1e2830a483968f">BLE_PORT</a></div><div class="ttdeci">#define BLE_PORT</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00028">ble.h:28</a></div></div>
-<div class="ttc" id="able_8h_html_af160e2797ea438797c64916cb8d127d0"><div class="ttname"><a href="ble_8h.html#af160e2797ea438797c64916cb8d127d0">BLE_POWER_PORT</a></div><div class="ttdeci">#define BLE_POWER_PORT</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00025">ble.h:25</a></div></div>
-<div class="ttc" id="able_8h_html_ae68c0c30c3e2230b7c0aa72957df9ac6"><div class="ttname"><a href="ble_8h.html#ae68c0c30c3e2230b7c0aa72957df9ac6">BLE_LED2_PIN</a></div><div class="ttdeci">#define BLE_LED2_PIN</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00037">ble.h:37</a></div></div>
-<div class="ttc" id="able_8h_html_ae6e18068663ee9d2b408c3084e40dfb5"><div class="ttname"><a href="ble_8h.html#ae6e18068663ee9d2b408c3084e40dfb5">BLE_PIN_TX</a></div><div class="ttdeci">#define BLE_PIN_TX</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00026">ble.h:26</a></div></div>
-<div class="ttc" id="able_8c_html_ad189f77377a584ab0aac3fff539264ef"><div class="ttname"><a href="ble_8c.html#ad189f77377a584ab0aac3fff539264ef">float_to_uint8_t</a></div><div class="ttdeci">void float_to_uint8_t(float *input, uint8_t *out)</div><div class="ttdoc">Float to uint8_t conversion.</div><div class="ttdef"><b>Definition:</b> <a href="ble_8c_source.html#l00399">ble.c:399</a></div></div>
-<div class="ttc" id="able_8h_html_a786154718d624b9f9b54b4fdea315d60"><div class="ttname"><a href="ble_8h.html#a786154718d624b9f9b54b4fdea315d60">BLE_LED2_PORT</a></div><div class="ttdeci">#define BLE_LED2_PORT</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00038">ble.h:38</a></div></div>
-<div class="ttc" id="auart_8c_html_a2668607f49a0a2293f0b26b45ff21f8c"><div class="ttname"><a href="uart_8c.html#a2668607f49a0a2293f0b26b45ff21f8c">uartGetData</a></div><div class="ttdeci">uint32_t uartGetData(uint8_t *dataPtr, uint32_t dataLen)</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00173">uart.c:173</a></div></div>
+<div class="ttc" id="able_8h_html_aa83892b8e633e60d6daa7a95adf101a6"><div class="ttname"><a href="ble_8h.html#aa83892b8e633e60d6daa7a95adf101a6">BLE_POWER_PIN</a></div><div class="ttdeci">#define BLE_POWER_PIN</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00031">ble.h:31</a></div></div>
+<div class="ttc" id="able_8h_html_aa90b5af234f0bfd7ee1e2830a483968f"><div class="ttname"><a href="ble_8h.html#aa90b5af234f0bfd7ee1e2830a483968f">BLE_PORT</a></div><div class="ttdeci">#define BLE_PORT</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00035">ble.h:35</a></div></div>
+<div class="ttc" id="able_8h_html_af160e2797ea438797c64916cb8d127d0"><div class="ttname"><a href="ble_8h.html#af160e2797ea438797c64916cb8d127d0">BLE_POWER_PORT</a></div><div class="ttdeci">#define BLE_POWER_PORT</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00032">ble.h:32</a></div></div>
+<div class="ttc" id="able_8h_html_ae68c0c30c3e2230b7c0aa72957df9ac6"><div class="ttname"><a href="ble_8h.html#ae68c0c30c3e2230b7c0aa72957df9ac6">BLE_LED2_PIN</a></div><div class="ttdeci">#define BLE_LED2_PIN</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00044">ble.h:44</a></div></div>
+<div class="ttc" id="able_8h_html_ae6e18068663ee9d2b408c3084e40dfb5"><div class="ttname"><a href="ble_8h.html#ae6e18068663ee9d2b408c3084e40dfb5">BLE_PIN_TX</a></div><div class="ttdeci">#define BLE_PIN_TX</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00033">ble.h:33</a></div></div>
+<div class="ttc" id="able_8c_html_ad189f77377a584ab0aac3fff539264ef"><div class="ttname"><a href="ble_8c.html#ad189f77377a584ab0aac3fff539264ef">float_to_uint8_t</a></div><div class="ttdeci">void float_to_uint8_t(float *input, uint8_t *out)</div><div class="ttdoc">Float to uint8_t conversion.</div><div class="ttdef"><b>Definition:</b> <a href="ble_8c_source.html#l00391">ble.c:391</a></div></div>
+<div class="ttc" id="able_8h_html_a786154718d624b9f9b54b4fdea315d60"><div class="ttname"><a href="ble_8h.html#a786154718d624b9f9b54b4fdea315d60">BLE_LED2_PORT</a></div><div class="ttdeci">#define BLE_LED2_PORT</div><div class="ttdef"><b>Definition:</b> <a href="ble_8h_source.html#l00045">ble.h:45</a></div></div>
+<div class="ttc" id="auart_8c_html_a2668607f49a0a2293f0b26b45ff21f8c"><div class="ttname"><a href="uart_8c.html#a2668607f49a0a2293f0b26b45ff21f8c">uartGetData</a></div><div class="ttdeci">uint32_t uartGetData(uint8_t *dataPtr, uint32_t dataLen)</div><div class="ttdoc">uartGetData function</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00185">uart.c:185</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

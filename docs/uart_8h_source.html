@@ -92,42 +92,43 @@ $(document).ready(function(){initNavTree('uart_8h_source.html','');});
 <div class="title">uart.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="uart_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * uart.h</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: Mar 8, 2020</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: jonac</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef BLE_UART_H_</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define BLE_UART_H_</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#a50dc4e9c588520948f2ad223e583c446">uart_Init</a>();</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;uint8_t <a class="code" href="uart_8h.html#ac5011fe47a14a7d586e151ffd3492268">uartGetChar</a>( );</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#a0b4d9730483fc4e7364a92c3de4df7d4">uartPutChar</a>(uint8_t ch);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a>(uint8_t * dataPtr, uint32_t dataLen);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;uint32_t <a class="code" href="uart_8h.html#a2668607f49a0a2293f0b26b45ff21f8c">uartGetData</a>(uint8_t * dataPtr, uint32_t dataLen);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#a5110e6b33cd4e37c9fa7a17c9e681256">UART1_RX_IRQHandler</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#a58476a26d48dfa8d3b494e9589fb9bba">UART1_TX_IRQHandler</a>(<span class="keywordtype">void</span>);</div>
+<a href="uart_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************************/</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * uart.h</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> *  Created on: Mar 8, 2020</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> *      Author: jonac</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifndef BLE_UART_H_</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#define BLE_UART_H_</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* BLE_UART_H_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#a50dc4e9c588520948f2ad223e583c446">uart_Init</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;uint8_t <a class="code" href="uart_8h.html#ac5011fe47a14a7d586e151ffd3492268">uartGetChar</a>( );</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#a0b4d9730483fc4e7364a92c3de4df7d4">uartPutChar</a>(uint8_t ch);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a>(uint8_t * dataPtr, uint32_t dataLen);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;uint32_t <a class="code" href="uart_8h.html#a2668607f49a0a2293f0b26b45ff21f8c">uartGetData</a>(uint8_t * dataPtr, uint32_t dataLen);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#a5110e6b33cd4e37c9fa7a17c9e681256">UART1_RX_IRQHandler</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="uart_8h.html#a58476a26d48dfa8d3b494e9589fb9bba">UART1_TX_IRQHandler</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* BLE_UART_H_ */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="auart_8h_html_ac5011fe47a14a7d586e151ffd3492268"><div class="ttname"><a href="uart_8h.html#ac5011fe47a14a7d586e151ffd3492268">uartGetChar</a></div><div class="ttdeci">uint8_t uartGetChar()</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00085">uart.c:85</a></div></div>
+<div class="ttc" id="auart_8h_html_ac5011fe47a14a7d586e151ffd3492268"><div class="ttname"><a href="uart_8h.html#ac5011fe47a14a7d586e151ffd3492268">uartGetChar</a></div><div class="ttdeci">uint8_t uartGetChar()</div><div class="ttdoc">uartGetChar function</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00094">uart.c:94</a></div></div>
 <div class="ttc" id="auart_8h_html_a5110e6b33cd4e37c9fa7a17c9e681256"><div class="ttname"><a href="uart_8h.html#a5110e6b33cd4e37c9fa7a17c9e681256">UART1_RX_IRQHandler</a></div><div class="ttdeci">void UART1_RX_IRQHandler(void)</div></div>
-<div class="ttc" id="auart_8h_html_acc9e5e3b3c328da0722df339f3c7ba39"><div class="ttname"><a href="uart_8h.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a></div><div class="ttdeci">void uartPutData(uint8_t *dataPtr, uint32_t dataLen)</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00137">uart.c:137</a></div></div>
-<div class="ttc" id="auart_8h_html_a0b4d9730483fc4e7364a92c3de4df7d4"><div class="ttname"><a href="uart_8h.html#a0b4d9730483fc4e7364a92c3de4df7d4">uartPutChar</a></div><div class="ttdeci">void uartPutChar(uint8_t ch)</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00111">uart.c:111</a></div></div>
-<div class="ttc" id="auart_8h_html_a50dc4e9c588520948f2ad223e583c446"><div class="ttname"><a href="uart_8h.html#a50dc4e9c588520948f2ad223e583c446">uart_Init</a></div><div class="ttdeci">void uart_Init()</div><div class="ttdoc">UART init.</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00049">uart.c:49</a></div></div>
-<div class="ttc" id="auart_8h_html_a2668607f49a0a2293f0b26b45ff21f8c"><div class="ttname"><a href="uart_8h.html#a2668607f49a0a2293f0b26b45ff21f8c">uartGetData</a></div><div class="ttdeci">uint32_t uartGetData(uint8_t *dataPtr, uint32_t dataLen)</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00173">uart.c:173</a></div></div>
+<div class="ttc" id="auart_8h_html_acc9e5e3b3c328da0722df339f3c7ba39"><div class="ttname"><a href="uart_8h.html#acc9e5e3b3c328da0722df339f3c7ba39">uartPutData</a></div><div class="ttdeci">void uartPutData(uint8_t *dataPtr, uint32_t dataLen)</div><div class="ttdoc">uartPutData function</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00148">uart.c:148</a></div></div>
+<div class="ttc" id="auart_8h_html_a0b4d9730483fc4e7364a92c3de4df7d4"><div class="ttname"><a href="uart_8h.html#a0b4d9730483fc4e7364a92c3de4df7d4">uartPutChar</a></div><div class="ttdeci">void uartPutChar(uint8_t ch)</div><div class="ttdoc">uartPutChar function</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00121">uart.c:121</a></div></div>
+<div class="ttc" id="auart_8h_html_a50dc4e9c588520948f2ad223e583c446"><div class="ttname"><a href="uart_8h.html#a50dc4e9c588520948f2ad223e583c446">uart_Init</a></div><div class="ttdeci">void uart_Init()</div><div class="ttdoc">UART init.</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00057">uart.c:57</a></div></div>
+<div class="ttc" id="auart_8h_html_a2668607f49a0a2293f0b26b45ff21f8c"><div class="ttname"><a href="uart_8h.html#a2668607f49a0a2293f0b26b45ff21f8c">uartGetData</a></div><div class="ttdeci">uint32_t uartGetData(uint8_t *dataPtr, uint32_t dataLen)</div><div class="ttdoc">uartGetData function</div><div class="ttdef"><b>Definition:</b> <a href="uart_8c_source.html#l00185">uart.c:185</a></div></div>
 <div class="ttc" id="auart_8h_html_a58476a26d48dfa8d3b494e9589fb9bba"><div class="ttname"><a href="uart_8h.html#a58476a26d48dfa8d3b494e9589fb9bba">UART1_TX_IRQHandler</a></div><div class="ttdeci">void UART1_TX_IRQHandler(void)</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
