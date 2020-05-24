@@ -29,9 +29,8 @@ Documented using Doxygen: can be found here: https://jonacappelle.github.io/Mast
 
 
 # Hardware
+
 <p align="center">
-  <img width="400" src="https://github.com/jonacappelle/Master-Thesis/blob/master/elements/sensor_node_case_1.jpg">
+  <img width="600" src="https://github.com/jonacappelle/Master-Thesis/blob/master/elements/render.png">
 </p>
-<p align="center">
-  <img width="400" src="https://github.com/jonacappelle/Master-Thesis/blob/master/elements/sensor_node_case_2.jpg">
-</p>
+
