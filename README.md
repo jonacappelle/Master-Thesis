@@ -9,7 +9,7 @@
 [`Click here`](https://jonacappelle.github.io/Master-Thesis/) for the documented souce code.
 
 # Code sensor node
-Documented using Doxygen: can be found here: https://jonacappelle.github.io/Master-Thesis/`
+Documented using Doxygen: can be found here: https://jonacappelle.github.io/Master-Thesis/
 
 | File        | Description           |
 | ------------- |-------------:|
