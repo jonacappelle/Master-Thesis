@@ -7,3 +7,9 @@
 [Click here](https://jonacappelle.github.io/Master-Thesis/) for the souce code.
 
 ## Result
+<p align="center">
+  <img width="500" src="https://github.com/jonacappelle/Master-Thesis/blob/master/elements/sensor_node_case_1.jpg">
+</p>
+<p align="center">
+  <img width="500" src="https://github.com/jonacappelle/Master-Thesis/blob/master/elements/sensor_node_case_2.jpg">
+</p>
