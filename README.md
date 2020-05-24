@@ -1,6 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/jonacappelle/Master-Thesis?style=flat-square)
-![Target device](https://img.shields.io/badge/target%20device-EFM32HG322F64G-yellow.svg)
-
+![Target device](https://img.shields.io/badge/target%20device-EFM32HG322F64G-yellow?style=flat-square)
+![Release data](https://img.shields.io/github/v/release/jonacappelle/Master-Thesis?style=flat-square)
 
 # Master-Thesis
 
