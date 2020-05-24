@@ -103,9 +103,7 @@ uint8_t startSeq = 0;
 #define START_SEQ_LENGTH	25
 uint8_t start_seq[START_SEQ_LENGTH] = { 0x02, 0x86, 0x07, 0x00, 0x00, 0xBC, 0x04, 0x20, 0xDA, 0x18, 0x00, 0xD9, 0x02, 0xC6, 0x07, 0x00, 0x00, 0xBC, 0x04, 0x20, 0xDA, 0x18, 0x00, 0xF3, 0x65 };
 
-//char begin[5] = "hallo";
 char begin[2] = { (char) 0x02, (char) 0x84 }; //, (char) 0x13, (char) 0x00, (char) 0xBC, (char) 0x04, (char) 0x20, (char) 0xDA, (char) 0x18, (char) 0x00 };
-
 
 char buffer[23];
 bool test = false;
@@ -222,12 +220,7 @@ int main(void)
 			  ftoa(z[0], z_send, 4);
 
 
-
-//			  HAL_UART_Transmit_IT(&hlpuart1, x_send, 6);
-
 			  printf("%f\t%f\t%f\t%f\t%f\r\n", x[0], y[0], z[0], battery_percent[0], rssi[0]);
-//			  printf("%f\r\n", rssi[0]);
-
 
 			  count++;
 			  if(count==(51*1))
@@ -236,12 +229,6 @@ int main(void)
 				  count=0;
 			  }
 
-//			  /* End of line characters */
-//			  buffer[21] = 0x0d;
-//			  buffer[22] = 0x0a;
-//
-//			  /* Send raw float bytes to pc */
-//			  HAL_UART_Transmit_IT(&hlpuart1, &buffer[9], 4*3+2); // send to PC
 		  }
 	  }
   }
@@ -439,44 +426,8 @@ static void MX_GPIO_Init(void)
 /* Interrupt callback */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-	//__NOP(); // Put breakpoint while debugging
-
-/***********************************************/
-	/* Send uart data directly to pc */
-//	HAL_UART_Transmit_IT(&hlpuart1, rx_buff, 1); // send to PC
-//	HAL_UART_Receive_IT(&huart5, rx_buff, 1);
-/***********************************************/
-
-//	/* 1 time check if start sequence is correct */
-//	if( startSeq < 1 )
-//	{
-//		if( Check_Equal(rx_buff, start_seq, 25) )
-//		{
-//			startSeq++;
-//		}
-//	}
+  
 	__NOP();
-
-//	if(rx_buff[0] == 0x02)
-//	{
-//		HAL_UART_Receive_IT(&huart5, rx_buff, 22); // receive data packets
-//		HAL_UART_Transmit_IT(&hlpuart1, rx_buff, 22); // send to PC
-//	}
-//	else
-//	{
-//		HAL_UART_Receive_IT(&huart5, rx_buff, 1);
-//
-//	}
-
-
-
-	/* Receive normally */
-//	HAL_UART_Receive_IT(&huart5, rx_buff, 1); // receive data packets
-//
-//	HAL_UART_Transmit_IT(&hlpuart1, rx_buff, DATA_LENGTH + PACKET_OVERHEAD); // send to PC
-//
-
-//	HAL_UART_Receive_IT(&huart5, rx_buff, DATA_LENGTH + PACKET_OVERHEAD);
 
 }
 
